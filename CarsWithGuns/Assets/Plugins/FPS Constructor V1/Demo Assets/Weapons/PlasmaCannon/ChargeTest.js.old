@@ -1,0 +1,41 @@
+var gscript : GunScript;
+var emitters : ParticleEmitter[];
+var emitting : boolean = false;
+var specialEmitter : ParticleSystem;
+var minSpecial : float;
+
+function LateUpdate () {
+	this.GetComponentInChildren(Light).range = gscript.chargeLevel*10;
+	if(gscript.chargeLevel > 0 || emitting){
+		gscript.gameObject.GetComponent(AudioSource).pitch = gscript.chargeLevel;
+		if(!emitting){
+			emitCharge(true);
+		} else if (emitting) {
+			emitCharge(false);
+		}
+	} else {
+		gscript.gameObject.GetComponent(AudioSource).pitch = gscript.firePitch;
+		specialEmitter.Stop();
+	}
+}
+
+function emitCharge (s : boolean) {
+    for(var i : int = 0; i < emitters.length; i++){
+        if(s)
+        {
+		    emitters[i].Play();
+        }
+        else
+        {
+            emitters[i].Stop();
+        }
+	}
+	if(gscript.chargeLevel > minSpecial){
+		specialEmitter.Play();
+	} else {
+		specialEmitter.Stop();
+	}
+
+	emitting = s;
+}
+
