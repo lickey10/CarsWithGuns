@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: ec320d5adfd0fda41b695dc838e52769
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bumblebee
+    100012: //RootNode
+    100014: Camera_Perspective4
+    100016: V-Ray Area Light
+    100018: V-Ray Dome
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bumblebee
+    400012: //RootNode
+    400014: Camera_Perspective4
+    400016: V-Ray Area Light
+    400018: V-Ray Dome
+    4300000: Bumblebee
+    9500000: //RootNode
+    13700000: Bumblebee
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RB_Bumblebee_MATINST
+    second: {fileID: 2100000, guid: 4514195119562cc46a210e5261ef27d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Bone001
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone002
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone003
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone004
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone005
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: bumblebee-transformer-animation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bumblebee
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera_Perspective4
+      parentName: 
+      position: {x: -123.19553, y: 543.03925, z: 343.36578}
+      rotation: {x: -0.10502889, y: -0.79072547, z: 0.075690776, w: 0.5983252}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: V-Ray Area Light
+      parentName: 
+      position: {x: 0, y: 794.4134, z: 208.8534}
+      rotation: {x: 0.14286646, y: 0, z: 0, w: 0.989742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: V-Ray Dome
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone001
+      parentName: 
+      position: {x: 2.60418, y: 320.95, z: 0.0000140292}
+      rotation: {x: -0.0000013382853, y: 0.0000013590326, z: -0.7016471, w: 0.71252465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone002
+      parentName: 
+      position: {x: -144.715, y: 0.0000224113, z: 0.00000207896}
+      rotation: {x: 0.0000017973737, y: -0.0000004477784, z: 0.21104199, w: 0.977477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone003
+      parentName: 
+      position: {x: -75.9818, y: 0.000457764, z: 1.45519e-11}
+      rotation: {x: 0.00000009567029, y: -0.00000000558477, z: 0.39148065, w: 0.9201864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone004
+      parentName: 
+      position: {x: -92.1698, y: 0.0000305176, z: 5.45697e-12}
+      rotation: {x: 1.2584791e-12, y: 0.000000009964551, z: 0.12706561, w: 0.9918943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone005
+      parentName: 
+      position: {x: -146.527, y: 0, z: -3.81988e-11}
+      rotation: {x: 0, y: 8.881806e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

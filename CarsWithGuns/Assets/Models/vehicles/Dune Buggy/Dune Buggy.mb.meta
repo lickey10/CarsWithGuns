@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: f4e32c0c86f4950409fd0abf881fa2df
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: air_filter
+    100002: belt
+    100004: bottom_cover
+    100006: bottom_left_cover
+    100008: bottom_right_cover
+    100010: carb
+    100012: //RootNode
+    100014: dune_buggy
+    100016: dune_engine_pCube3
+    100018: engine
+    100020: engine 1
+    100022: exhaust
+    100024: extras
+    100026: frame
+    100028: front_left_brace
+    100030: front_left_cover
+    100032: front_left_disk_brake
+    100034: front_left_rimm
+    100036: front_left_shock
+    100038: front_left_suspension
+    100040: front_left_tyer
+    100042: front_right_brace
+    100044: front_right_cover
+    100046: front_right_disk_brake
+    100048: front_right_rimm
+    100050: front_right_shock
+    100052: front_right_suspension
+    100054: front_right_tyre
+    100056: front_top_cover
+    100058: left_door_cover
+    100060: left_drive_shaft
+    100062: left_seat
+    100064: main_drive_shaft
+    100066: middle_left_cover
+    100068: middle_right_cover
+    100070: pCube12
+    100072: pCube14
+    100074: pCube16
+    100076: pCube17
+    100078: pCube18
+    100080: pCube19
+    100082: pCube2
+    100084: pCube22
+    100086: pCube23
+    100088: pCube24
+    100090: pCube25
+    100092: pCube26
+    100094: pCube28
+    100096: pCube3
+    100098: pCube35
+    100100: pCube36
+    100102: pCube4
+    100104: pCube43
+    100106: pCube51
+    100108: pCube52
+    100110: pCylinder12
+    100112: pCylinder2
+    100114: pCylinder29
+    100116: pCylinder5
+    100118: pCylinder7
+    100120: pedals
+    100122: pipe
+    100124: polySurface2
+    100126: polySurface283
+    100128: polySurface284
+    100130: polySurface322
+    100132: polySurface323
+    100134: pully
+    100136: pully1
+    100138: racing_covers
+    100140: rear_left_brace
+    100142: rear_left_drum
+    100144: rear_left_rimm
+    100146: rear_left_shock
+    100148: rear_left_suspension
+    100150: rear_left_tyre
+    100152: rear_right_brace
+    100154: rear_right_drum
+    100156: rear_right_rimm
+    100158: rear_right_shock
+    100160: rear_right_suspension
+    100162: rear_right_tyre
+    100164: rear_support
+    100166: rear_support1
+    100168: right_door_cover
+    100170: right_drive_shaft
+    100172: rimms
+    100174: roof_cover
+    100176: seat1
+    100178: seat2
+    100180: seat_bottom
+    100182: Seat_pCube16
+    100184: Seat_pCube17
+    100186: Seat_pCube18
+    100188: Seat_pCube22
+    100190: Seat_pCube23
+    100192: Seat_pCube26
+    100194: Seat_pCube3
+    100196: Seat_pCube36
+    100198: Seat_pCube43
+    100200: Seat_pCube51
+    100202: Seat_polySurface322
+    100204: Seat_polySurface323
+    100206: seat_top
+    100208: shock_pCube12
+    100210: shock_pCylinder2
+    100212: sliders
+    100214: Smokin_Guns__detailed__pCube14
+    100216: Smokin_Guns__detailed__pCylinder5
+    100218: Smokin_Guns__detailed__pCylinder7
+    100220: Speakers1_left_seat
+    100222: Speakers1_pCube14
+    100224: Speakers1_pCube16
+    100226: Speakers1_pCube17
+    100228: Speakers1_pCube18
+    100230: Speakers1_pCube22
+    100232: Speakers1_pCube23
+    100234: Speakers1_pCube26
+    100236: Speakers1_pCube3
+    100238: Speakers1_pCube36
+    100240: Speakers1_pCube43
+    100242: Speakers1_pCube51
+    100244: Speakers1_pCylinder29
+    100246: Speakers1_pCylinder7
+    100248: Speakers1_polySurface322
+    100250: Speakers1_polySurface323
+    100252: Speakers1_seat1
+    100254: Speakers1_seat2
+    100256: Speakers_left_seat
+    100258: Speakers_pCube14
+    100260: Speakers_pCube16
+    100262: Speakers_pCube17
+    100264: Speakers_pCube18
+    100266: Speakers_pCube22
+    100268: Speakers_pCube23
+    100270: Speakers_pCube26
+    100272: Speakers_pCube3
+    100274: Speakers_pCube36
+    100276: Speakers_pCube43
+    100278: Speakers_pCube51
+    100280: Speakers_pCylinder29
+    100282: Speakers_pCylinder7
+    100284: Speakers_polySurface322
+    100286: Speakers_polySurface323
+    100288: Speakers_seat1
+    100290: Speakers_seat2
+    100292: spot_01
+    100294: spot_02
+    100296: steering_support
+    100298: stock_steering
+    100300: suspension
+    100302: Suspension_Kit_pCube16
+    100304: Suspension_Kit_pCube36
+    100306: test_size_pCube16
+    100308: test_size_pCube17
+    100310: test_size_pCube18
+    100312: test_size_pCube22
+    100314: test_size_pCube23
+    100316: test_size_pCube26
+    100318: test_size_pCube28
+    100320: test_size_pCube3
+    100322: test_size_pCube36
+    100324: test_size_pCube43
+    100326: test_size_pCube51
+    100328: test_size_polySurface2
+    100330: test_size_polySurface322
+    100332: test_size_polySurface323
+    100334: test_size_Smokin_Guns__detailed__pCube14
+    100336: test_size_Smokin_Guns__detailed__pCylinder5
+    100338: test_size_Smokin_Guns__detailed__pCylinder7
+    100340: top_frame_pCylinder2
+    100342: transform105
+    100344: transform114
+    100346: transform115
+    100348: transform123
+    100350: transform125
+    100352: transform14
+    100354: transform14 1
+    100356: transform147
+    100358: transform177
+    100360: transform177 1
+    100362: transform177 2
+    100364: transform177 3
+    100366: transform177 4
+    100368: transform190
+    100370: transform190 1
+    100372: transform190 2
+    100374: transform190 3
+    100376: transform190 4
+    100378: transform191
+    100380: transform191 1
+    100382: transform191 2
+    100384: transform191 3
+    100386: transform191 4
+    100388: transform192
+    100390: transform192 1
+    100392: transform192 2
+    100394: transform192 3
+    100396: transform192 4
+    100398: transform201
+    100400: transform201 1
+    100402: transform201 2
+    100404: transform201 3
+    100406: transform201 4
+    100408: transform205
+    100410: transform205 1
+    100412: transform205 2
+    100414: transform205 3
+    100416: transform205 4
+    100418: transform208
+    100420: transform208 1
+    100422: transform209
+    100424: transform209 1
+    100426: transform259
+    100428: transform259 1
+    100430: transform259 2
+    100432: transform259 3
+    100434: transform259 4
+    100436: transform289
+    100438: transform289 1
+    100440: transform289 2
+    100442: transform289 3
+    100444: transform289 4
+    100446: transform303
+    100448: transform303 1
+    100450: transform303 2
+    100452: transform303 3
+    100454: transform303 4
+    100456: transform304
+    100458: transform304 1
+    100460: transform304 2
+    100462: transform304 3
+    100464: transform304 4
+    100466: transform323
+    100468: transform323 1
+    100470: transform323 2
+    100472: transform323 3
+    100474: transform323 4
+    100476: transform325
+    100478: transform325 1
+    100480: transform325 2
+    100482: transform325 3
+    100484: transform325 4
+    100486: transform34
+    100488: transform378
+    100490: transform378 1
+    100492: transform413
+    100494: transform413 1
+    100496: transform413 2
+    100498: transform425
+    100500: transform430
+    100502: transform431
+    100504: transform435
+    100506: transform59
+    100508: transform63
+    100510: transform66
+    100512: transform7
+    100514: transform7 1
+    100516: transform80
+    100518: transform80 1
+    100520: transform80 2
+    100522: transform80 3
+    100524: transform80 4
+    100526: transform82
+    100528: tyres
+    400000: air_filter
+    400002: belt
+    400004: bottom_cover
+    400006: bottom_left_cover
+    400008: bottom_right_cover
+    400010: carb
+    400012: //RootNode
+    400014: dune_buggy
+    400016: dune_engine_pCube3
+    400018: engine
+    400020: engine 1
+    400022: exhaust
+    400024: extras
+    400026: frame
+    400028: front_left_brace
+    400030: front_left_cover
+    400032: front_left_disk_brake
+    400034: front_left_rimm
+    400036: front_left_shock
+    400038: front_left_suspension
+    400040: front_left_tyer
+    400042: front_right_brace
+    400044: front_right_cover
+    400046: front_right_disk_brake
+    400048: front_right_rimm
+    400050: front_right_shock
+    400052: front_right_suspension
+    400054: front_right_tyre
+    400056: front_top_cover
+    400058: left_door_cover
+    400060: left_drive_shaft
+    400062: left_seat
+    400064: main_drive_shaft
+    400066: middle_left_cover
+    400068: middle_right_cover
+    400070: pCube12
+    400072: pCube14
+    400074: pCube16
+    400076: pCube17
+    400078: pCube18
+    400080: pCube19
+    400082: pCube2
+    400084: pCube22
+    400086: pCube23
+    400088: pCube24
+    400090: pCube25
+    400092: pCube26
+    400094: pCube28
+    400096: pCube3
+    400098: pCube35
+    400100: pCube36
+    400102: pCube4
+    400104: pCube43
+    400106: pCube51
+    400108: pCube52
+    400110: pCylinder12
+    400112: pCylinder2
+    400114: pCylinder29
+    400116: pCylinder5
+    400118: pCylinder7
+    400120: pedals
+    400122: pipe
+    400124: polySurface2
+    400126: polySurface283
+    400128: polySurface284
+    400130: polySurface322
+    400132: polySurface323
+    400134: pully
+    400136: pully1
+    400138: racing_covers
+    400140: rear_left_brace
+    400142: rear_left_drum
+    400144: rear_left_rimm
+    400146: rear_left_shock
+    400148: rear_left_suspension
+    400150: rear_left_tyre
+    400152: rear_right_brace
+    400154: rear_right_drum
+    400156: rear_right_rimm
+    400158: rear_right_shock
+    400160: rear_right_suspension
+    400162: rear_right_tyre
+    400164: rear_support
+    400166: rear_support1
+    400168: right_door_cover
+    400170: right_drive_shaft
+    400172: rimms
+    400174: roof_cover
+    400176: seat1
+    400178: seat2
+    400180: seat_bottom
+    400182: Seat_pCube16
+    400184: Seat_pCube17
+    400186: Seat_pCube18
+    400188: Seat_pCube22
+    400190: Seat_pCube23
+    400192: Seat_pCube26
+    400194: Seat_pCube3
+    400196: Seat_pCube36
+    400198: Seat_pCube43
+    400200: Seat_pCube51
+    400202: Seat_polySurface322
+    400204: Seat_polySurface323
+    400206: seat_top
+    400208: shock_pCube12
+    400210: shock_pCylinder2
+    400212: sliders
+    400214: Smokin_Guns__detailed__pCube14
+    400216: Smokin_Guns__detailed__pCylinder5
+    400218: Smokin_Guns__detailed__pCylinder7
+    400220: Speakers1_left_seat
+    400222: Speakers1_pCube14
+    400224: Speakers1_pCube16
+    400226: Speakers1_pCube17
+    400228: Speakers1_pCube18
+    400230: Speakers1_pCube22
+    400232: Speakers1_pCube23
+    400234: Speakers1_pCube26
+    400236: Speakers1_pCube3
+    400238: Speakers1_pCube36
+    400240: Speakers1_pCube43
+    400242: Speakers1_pCube51
+    400244: Speakers1_pCylinder29
+    400246: Speakers1_pCylinder7
+    400248: Speakers1_polySurface322
+    400250: Speakers1_polySurface323
+    400252: Speakers1_seat1
+    400254: Speakers1_seat2
+    400256: Speakers_left_seat
+    400258: Speakers_pCube14
+    400260: Speakers_pCube16
+    400262: Speakers_pCube17
+    400264: Speakers_pCube18
+    400266: Speakers_pCube22
+    400268: Speakers_pCube23
+    400270: Speakers_pCube26
+    400272: Speakers_pCube3
+    400274: Speakers_pCube36
+    400276: Speakers_pCube43
+    400278: Speakers_pCube51
+    400280: Speakers_pCylinder29
+    400282: Speakers_pCylinder7
+    400284: Speakers_polySurface322
+    400286: Speakers_polySurface323
+    400288: Speakers_seat1
+    400290: Speakers_seat2
+    400292: spot_01
+    400294: spot_02
+    400296: steering_support
+    400298: stock_steering
+    400300: suspension
+    400302: Suspension_Kit_pCube16
+    400304: Suspension_Kit_pCube36
+    400306: test_size_pCube16
+    400308: test_size_pCube17
+    400310: test_size_pCube18
+    400312: test_size_pCube22
+    400314: test_size_pCube23
+    400316: test_size_pCube26
+    400318: test_size_pCube28
+    400320: test_size_pCube3
+    400322: test_size_pCube36
+    400324: test_size_pCube43
+    400326: test_size_pCube51
+    400328: test_size_polySurface2
+    400330: test_size_polySurface322
+    400332: test_size_polySurface323
+    400334: test_size_Smokin_Guns__detailed__pCube14
+    400336: test_size_Smokin_Guns__detailed__pCylinder5
+    400338: test_size_Smokin_Guns__detailed__pCylinder7
+    400340: top_frame_pCylinder2
+    400342: transform105
+    400344: transform114
+    400346: transform115
+    400348: transform123
+    400350: transform125
+    400352: transform14
+    400354: transform14 1
+    400356: transform147
+    400358: transform177
+    400360: transform177 1
+    400362: transform177 2
+    400364: transform177 3
+    400366: transform177 4
+    400368: transform190
+    400370: transform190 1
+    400372: transform190 2
+    400374: transform190 3
+    400376: transform190 4
+    400378: transform191
+    400380: transform191 1
+    400382: transform191 2
+    400384: transform191 3
+    400386: transform191 4
+    400388: transform192
+    400390: transform192 1
+    400392: transform192 2
+    400394: transform192 3
+    400396: transform192 4
+    400398: transform201
+    400400: transform201 1
+    400402: transform201 2
+    400404: transform201 3
+    400406: transform201 4
+    400408: transform205
+    400410: transform205 1
+    400412: transform205 2
+    400414: transform205 3
+    400416: transform205 4
+    400418: transform208
+    400420: transform208 1
+    400422: transform209
+    400424: transform209 1
+    400426: transform259
+    400428: transform259 1
+    400430: transform259 2
+    400432: transform259 3
+    400434: transform259 4
+    400436: transform289
+    400438: transform289 1
+    400440: transform289 2
+    400442: transform289 3
+    400444: transform289 4
+    400446: transform303
+    400448: transform303 1
+    400450: transform303 2
+    400452: transform303 3
+    400454: transform303 4
+    400456: transform304
+    400458: transform304 1
+    400460: transform304 2
+    400462: transform304 3
+    400464: transform304 4
+    400466: transform323
+    400468: transform323 1
+    400470: transform323 2
+    400472: transform323 3
+    400474: transform323 4
+    400476: transform325
+    400478: transform325 1
+    400480: transform325 2
+    400482: transform325 3
+    400484: transform325 4
+    400486: transform34
+    400488: transform378
+    400490: transform378 1
+    400492: transform413
+    400494: transform413 1
+    400496: transform413 2
+    400498: transform425
+    400500: transform430
+    400502: transform431
+    400504: transform435
+    400506: transform59
+    400508: transform63
+    400510: transform66
+    400512: transform7
+    400514: transform7 1
+    400516: transform80
+    400518: transform80 1
+    400520: transform80 2
+    400522: transform80 3
+    400524: transform80 4
+    400526: transform82
+    400528: tyres
+    2300000: air_filter
+    2300002: belt
+    2300004: bottom_cover
+    2300006: bottom_left_cover
+    2300008: bottom_right_cover
+    2300010: carb
+    2300012: engine 1
+    2300014: exhaust
+    2300016: frame
+    2300018: front_left_brace
+    2300020: front_left_cover
+    2300022: front_left_disk_brake
+    2300024: front_left_rimm
+    2300026: front_left_shock
+    2300028: front_left_tyer
+    2300030: front_right_brace
+    2300032: front_right_cover
+    2300034: front_right_disk_brake
+    2300036: front_right_rimm
+    2300038: front_right_shock
+    2300040: front_right_tyre
+    2300042: front_top_cover
+    2300044: left_door_cover
+    2300046: left_drive_shaft
+    2300048: main_drive_shaft
+    2300050: middle_left_cover
+    2300052: middle_right_cover
+    2300054: pedals
+    2300056: pipe
+    2300058: pully
+    2300060: pully1
+    2300062: rear_left_brace
+    2300064: rear_left_drum
+    2300066: rear_left_rimm
+    2300068: rear_left_shock
+    2300070: rear_left_tyre
+    2300072: rear_right_brace
+    2300074: rear_right_drum
+    2300076: rear_right_rimm
+    2300078: rear_right_shock
+    2300080: rear_right_tyre
+    2300082: rear_support
+    2300084: rear_support1
+    2300086: right_door_cover
+    2300088: right_drive_shaft
+    2300090: roof_cover
+    2300092: seat_bottom
+    2300094: seat_top
+    2300096: sliders
+    2300098: spot_01
+    2300100: spot_02
+    2300102: steering_support
+    2300104: stock_steering
+    3300000: air_filter
+    3300002: belt
+    3300004: bottom_cover
+    3300006: bottom_left_cover
+    3300008: bottom_right_cover
+    3300010: carb
+    3300012: engine 1
+    3300014: exhaust
+    3300016: frame
+    3300018: front_left_brace
+    3300020: front_left_cover
+    3300022: front_left_disk_brake
+    3300024: front_left_rimm
+    3300026: front_left_shock
+    3300028: front_left_tyer
+    3300030: front_right_brace
+    3300032: front_right_cover
+    3300034: front_right_disk_brake
+    3300036: front_right_rimm
+    3300038: front_right_shock
+    3300040: front_right_tyre
+    3300042: front_top_cover
+    3300044: left_door_cover
+    3300046: left_drive_shaft
+    3300048: main_drive_shaft
+    3300050: middle_left_cover
+    3300052: middle_right_cover
+    3300054: pedals
+    3300056: pipe
+    3300058: pully
+    3300060: pully1
+    3300062: rear_left_brace
+    3300064: rear_left_drum
+    3300066: rear_left_rimm
+    3300068: rear_left_shock
+    3300070: rear_left_tyre
+    3300072: rear_right_brace
+    3300074: rear_right_drum
+    3300076: rear_right_rimm
+    3300078: rear_right_shock
+    3300080: rear_right_tyre
+    3300082: rear_support
+    3300084: rear_support1
+    3300086: right_door_cover
+    3300088: right_drive_shaft
+    3300090: roof_cover
+    3300092: seat_bottom
+    3300094: seat_top
+    3300096: sliders
+    3300098: spot_01
+    3300100: spot_02
+    3300102: steering_support
+    3300104: stock_steering
+    4300000: frame
+    4300002: front_left_brace
+    4300004: front_left_disk_brake
+    4300006: front_left_shock
+    4300008: front_right_brace
+    4300010: front_right_disk_brake
+    4300012: front_right_shock
+    4300014: rear_left_brace
+    4300016: rear_left_drum
+    4300018: rear_left_shock
+    4300020: rear_right_brace
+    4300022: rear_right_drum
+    4300024: rear_right_shock
+    4300026: rear_support
+    4300028: rear_support1
+    4300030: spot_01
+    4300032: spot_02
+    4300034: pedals
+    4300036: steering_support
+    4300038: stock_steering
+    4300040: sliders
+    4300042: seat_bottom
+    4300044: seat_top
+    4300046: engine
+    4300048: exhaust
+    4300050: carb
+    4300052: air_filter
+    4300054: main_drive_shaft
+    4300056: pully
+    4300058: belt
+    4300060: pully1
+    4300062: pipe
+    4300064: left_drive_shaft
+    4300066: right_drive_shaft
+    4300068: front_left_rimm
+    4300070: rear_left_rimm
+    4300072: rear_right_rimm
+    4300074: front_right_rimm
+    4300076: front_left_tyer
+    4300078: rear_left_tyre
+    4300080: rear_right_tyre
+    4300082: front_right_tyre
+    4300084: front_top_cover
+    4300086: roof_cover
+    4300088: front_left_cover
+    4300090: front_right_cover
+    4300092: bottom_left_cover
+    4300094: middle_left_cover
+    4300096: left_door_cover
+    4300098: middle_right_cover
+    4300100: right_door_cover
+    4300102: bottom_cover
+    4300104: bottom_right_cover
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

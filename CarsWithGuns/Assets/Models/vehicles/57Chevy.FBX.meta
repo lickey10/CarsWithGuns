@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 1d9ffd6551dd4e241a038d0846f2cb14
+timeCreated: 1467786217
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: blacko
+    100004: bseat
+    100006: bwhitew
+    100008: Camera01
+    100010: Camera01.target
+    100012: emblem blue
+    100014: emblem red
+    100016: emblem white
+    100018: ex-backrims
+    100020: ex-black
+    100022: ex-body
+    100024: ex-bottom
+    100026: ex-chrome
+    100028: ex-chromer
+    100030: ex-doors
+    100032: ex-front rims
+    100034: ex-frontalight
+    100036: ex-glass
+    100038: ex-grill
+    100040: ex-handles
+    100042: ex-hood
+    100044: ex-orn
+    100046: ex-top
+    100048: ex-trim
+    100050: ex-trunk
+    100052: FPoint01
+    100054: FPoint02
+    100056: fseat
+    100058: hlight
+    100060: interior
+    100062: lfrim
+    100064: lfwhitew
+    100066: logo
+    100068: mirror
+    100070: net
+    100072: Plane01
+    100074: rfrim
+    100076: rfwhitew
+    100078: rlight
+    100080: rubber
+    100082: sidep
+    100084: steer1
+    100086: steer2
+    100088: Tire
+    100090: Tire01
+    100092: Tire02
+    100094: wlight
+    400000: //RootNode
+    400002: blacko
+    400004: bseat
+    400006: bwhitew
+    400008: Camera01
+    400010: Camera01.target
+    400012: emblem blue
+    400014: emblem red
+    400016: emblem white
+    400018: ex-backrims
+    400020: ex-black
+    400022: ex-body
+    400024: ex-bottom
+    400026: ex-chrome
+    400028: ex-chromer
+    400030: ex-doors
+    400032: ex-front rims
+    400034: ex-frontalight
+    400036: ex-glass
+    400038: ex-grill
+    400040: ex-handles
+    400042: ex-hood
+    400044: ex-orn
+    400046: ex-top
+    400048: ex-trim
+    400050: ex-trunk
+    400052: FPoint01
+    400054: FPoint02
+    400056: fseat
+    400058: hlight
+    400060: interior
+    400062: lfrim
+    400064: lfwhitew
+    400066: logo
+    400068: mirror
+    400070: net
+    400072: Plane01
+    400074: rfrim
+    400076: rfwhitew
+    400078: rlight
+    400080: rubber
+    400082: sidep
+    400084: steer1
+    400086: steer2
+    400088: Tire
+    400090: Tire01
+    400092: Tire02
+    400094: wlight
+    2300000: blacko
+    2300002: bseat
+    2300004: bwhitew
+    2300006: emblem blue
+    2300008: emblem red
+    2300010: emblem white
+    2300012: ex-backrims
+    2300014: ex-black
+    2300016: ex-body
+    2300018: ex-bottom
+    2300020: ex-chrome
+    2300022: ex-chromer
+    2300024: ex-doors
+    2300026: ex-frontalight
+    2300028: ex-glass
+    2300030: ex-grill
+    2300032: ex-handles
+    2300034: ex-hood
+    2300036: ex-orn
+    2300038: ex-top
+    2300040: ex-trim
+    2300042: ex-trunk
+    2300044: fseat
+    2300046: hlight
+    2300048: interior
+    2300050: lfrim
+    2300052: lfwhitew
+    2300054: logo
+    2300056: mirror
+    2300058: net
+    2300060: Plane01
+    2300062: rfrim
+    2300064: rfwhitew
+    2300066: rlight
+    2300068: rubber
+    2300070: sidep
+    2300072: steer1
+    2300074: steer2
+    2300076: Tire
+    2300078: Tire01
+    2300080: Tire02
+    2300082: wlight
+    3300000: blacko
+    3300002: bseat
+    3300004: bwhitew
+    3300006: emblem blue
+    3300008: emblem red
+    3300010: emblem white
+    3300012: ex-backrims
+    3300014: ex-black
+    3300016: ex-body
+    3300018: ex-bottom
+    3300020: ex-chrome
+    3300022: ex-chromer
+    3300024: ex-doors
+    3300026: ex-frontalight
+    3300028: ex-glass
+    3300030: ex-grill
+    3300032: ex-handles
+    3300034: ex-hood
+    3300036: ex-orn
+    3300038: ex-top
+    3300040: ex-trim
+    3300042: ex-trunk
+    3300044: fseat
+    3300046: hlight
+    3300048: interior
+    3300050: lfrim
+    3300052: lfwhitew
+    3300054: logo
+    3300056: mirror
+    3300058: net
+    3300060: Plane01
+    3300062: rfrim
+    3300064: rfwhitew
+    3300066: rlight
+    3300068: rubber
+    3300070: sidep
+    3300072: steer1
+    3300074: steer2
+    3300076: Tire
+    3300078: Tire01
+    3300080: Tire02
+    3300082: wlight
+    4300000: ex-hood
+    4300002: ex-black
+    4300004: net
+    4300006: mirror
+    4300008: logo
+    4300010: steer1
+    4300012: steer2
+    4300014: interior
+    4300016: ex-handles
+    4300018: ex-orn
+    4300020: ex-trim
+    4300022: ex-bottom
+    4300024: hlight
+    4300026: fseat
+    4300028: bseat
+    4300030: rlight
+    4300032: wlight
+    4300034: sidep
+    4300036: ex-trunk
+    4300038: ex-glass
+    4300040: rfwhitew
+    4300042: bwhitew
+    4300044: lfwhitew
+    4300046: ex-doors
+    4300048: ex-frontalight
+    4300050: ex-chromer
+    4300052: ex-top
+    4300054: emblem white
+    4300056: emblem red
+    4300058: emblem blue
+    4300060: rubber
+    4300062: blacko
+    4300064: ex-grill
+    4300066: ex-body
+    4300068: ex-chrome
+    4300070: ex-backrims
+    4300072: Tire
+    4300074: Tire01
+    4300076: Tire02
+    4300078: lfrim
+    4300080: rfrim
+    4300082: Plane01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

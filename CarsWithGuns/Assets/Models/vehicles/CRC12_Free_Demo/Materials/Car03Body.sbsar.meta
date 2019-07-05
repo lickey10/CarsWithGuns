@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ad9464082a0ed7c43b81ca6efdde435e
+ScriptedImporter:
+  fileIDToRecycleName:
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: b954f3890f55cb14dba21eeeb19a7462, type: 3}
+  mGraphInstanceData: []

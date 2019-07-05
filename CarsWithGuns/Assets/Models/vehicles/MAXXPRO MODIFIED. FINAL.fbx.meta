@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 4f0b0d1bbe580b44697eabfb7ccfaf27
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera_001
+    100004: Camera_002
+    100006: Camera_003
+    100008: Camera_004
+    100010: Camera_005
+    100012: Camera_006
+    100014: Camera_012
+    100016: Camera_013
+    100018: Camera_014
+    100020: Camera_015
+    100022: Cube_011
+    100024: Cube_011_MeshPart0
+    100026: Cube_011_MeshPart1
+    100028: Cube_011_MeshPart2
+    100030: Cube_011_MeshPart3
+    100032: Cube_011_MeshPart4
+    100034: Cube_024
+    100036: Cube_042
+    100038: Cylinder_036
+    100040: Cylinder_037
+    100042: Lamp
+    100044: //RootNode
+    100046: Plane_000
+    100048: Plane_001
+    100050: Plane_002
+    100052: Plane_003
+    400000: Camera
+    400002: Camera_001
+    400004: Camera_002
+    400006: Camera_003
+    400008: Camera_004
+    400010: Camera_005
+    400012: Camera_006
+    400014: Camera_012
+    400016: Camera_013
+    400018: Camera_014
+    400020: Camera_015
+    400022: Cube_011
+    400024: Cube_011_MeshPart0
+    400026: Cube_011_MeshPart1
+    400028: Cube_011_MeshPart2
+    400030: Cube_011_MeshPart3
+    400032: Cube_011_MeshPart4
+    400034: Cube_024
+    400036: Cube_042
+    400038: Cylinder_036
+    400040: Cylinder_037
+    400042: Lamp
+    400044: //RootNode
+    400046: Plane_000
+    400048: Plane_001
+    400050: Plane_002
+    400052: Plane_003
+    2300000: Cube_011_MeshPart0
+    2300002: Cube_011_MeshPart1
+    2300004: Cube_011_MeshPart2
+    2300006: Cube_011_MeshPart3
+    2300008: Cube_011_MeshPart4
+    2300010: Cube_024
+    2300012: Cube_042
+    2300014: Cylinder_036
+    2300016: Cylinder_037
+    2300018: Plane_000
+    2300020: Plane_001
+    2300022: Plane_002
+    2300024: Plane_003
+    3300000: Cube_011_MeshPart0
+    3300002: Cube_011_MeshPart1
+    3300004: Cube_011_MeshPart2
+    3300006: Cube_011_MeshPart3
+    3300008: Cube_011_MeshPart4
+    3300010: Cube_024
+    3300012: Cube_042
+    3300014: Cylinder_036
+    3300016: Cylinder_037
+    3300018: Plane_000
+    3300020: Plane_001
+    3300022: Plane_002
+    3300024: Plane_003
+    4300000: Cube_011_MeshPart0
+    4300002: Cube_011_MeshPart1
+    4300004: Cube_011_MeshPart2
+    4300006: Cube_011_MeshPart3
+    4300008: Cube_011_MeshPart4
+    4300010: Cylinder_037
+    4300012: Cylinder_036
+    4300014: Cube_024
+    4300016: Plane_003
+    4300018: Plane_001
+    4300020: Plane_000
+    4300022: Plane_002
+    4300024: Cube_042
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_000
+    second: {fileID: 2100000, guid: f83416698517b5e49b704a61e9dc4910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: 92a785b18c718684c94f04821d21e650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 9adc2be3d059f2549ba469df5b2e943c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blastic
+    second: {fileID: 2100000, guid: ebbdf4e901e82ec4298a1e7222004411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blastic_001
+    second: {fileID: 2100000, guid: c795fadf5b4298240a911d28bc25cf33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blastic_002
+    second: {fileID: 2100000, guid: ad0c19435bae6c44283747625a98aa54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blastic_004
+    second: {fileID: 2100000, guid: 1c30c04f122e69643b50863dfa84ddb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blastic_005
+    second: {fileID: 2100000, guid: 15e65ce076506de418c711dcc0a1d5c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 74f16acaf37d20e4cb4ffa472a11ff95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: 227125cb9750f4e45a9a417773ca0bed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror_002
+    second: {fileID: 2100000, guid: 9764bf779f49f9f4ab9f0dcf51faeba0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

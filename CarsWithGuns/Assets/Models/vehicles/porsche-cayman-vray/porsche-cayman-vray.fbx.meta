@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: c160ad328a3e34947ad66a1a59d5ac94
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AmmoClip
+    100002: AmmoClipCover
+    100004: Base
+    100006: Base_Detached
+    100008: BeltActivator
+    100010: BeltActivatorButton
+    100012: BeltBuckle
+    100014: BLightL
+    100016: BLightR
+    100018: Body
+    100020: BrakeFL
+    100022: BrakeFR
+    100024: BrakeRL
+    100026: BrakeRR
+    100028: BreastClip
+    100030: BreastPlateButtons
+    100032: BreastPlateDark
+    100034: BreastPlateLight
+    100036: BreastPlateStrap
+    100038: BreastPlateStrapsClips
+    100040: BreatPlateButtonsLower
+    100042: CameraPreset
+    100044: Driver
+    100046: Engine_Cube
+    100048: Eyes_Brows
+    100050: Eyes_Eyeballs
+    100052: Eyes_Iris
+    100054: Eyes_Lashes
+    100056: Eyes_Pupil
+    100058: Girl Brunette
+    100060: girl_pivot
+    100062: Gloves
+    100064: group
+    100066: Hair2
+    100068: Hair3
+    100070: Hair4
+    100072: Hair5
+    100074: Hair6
+    100076: Hair7
+    100078: HairClip
+    100080: HairClip1
+    100082: HLightL
+    100084: HLightLG
+    100086: HLightR
+    100088: HLightRG
+    100090: Hood
+    100092: Hood_Carbon
+    100094: Interior
+    100096: License
+    100098: LightPreset
+    100100: MirrorL
+    100102: MirrorR
+    100104: Null
+    100106: PantsLower
+    100108: PantsLowerTrim
+    100110: PantStraps
+    100112: PantsUpper
+    100114: PantsUpperButtons
+    100116: PantsUpperTrim
+    100118: Plane
+    100120: //RootNode
+    100122: ScoutShip_ScoutShip
+    100124: ShoeClip
+    100126: Shoes1
+    100128: ShoeSeams
+    100130: Shorts
+    100132: Sinon - Sword Art Online
+    100134: Spoiler
+    100136: SuperSpoiler
+    100138: TireFL
+    100140: TireFR
+    100142: TireRL
+    100144: TireRR
+    100146: TorsoUpper
+    100148: TurnTableCamera
+    100150: USpoiler
+    100152: V-Ray Area
+    400000: AmmoClip
+    400002: AmmoClipCover
+    400004: Base
+    400006: Base_Detached
+    400008: BeltActivator
+    400010: BeltActivatorButton
+    400012: BeltBuckle
+    400014: BLightL
+    400016: BLightR
+    400018: Body
+    400020: BrakeFL
+    400022: BrakeFR
+    400024: BrakeRL
+    400026: BrakeRR
+    400028: BreastClip
+    400030: BreastPlateButtons
+    400032: BreastPlateDark
+    400034: BreastPlateLight
+    400036: BreastPlateStrap
+    400038: BreastPlateStrapsClips
+    400040: BreatPlateButtonsLower
+    400042: CameraPreset
+    400044: Driver
+    400046: Engine_Cube
+    400048: Eyes_Brows
+    400050: Eyes_Eyeballs
+    400052: Eyes_Iris
+    400054: Eyes_Lashes
+    400056: Eyes_Pupil
+    400058: Girl Brunette
+    400060: girl_pivot
+    400062: Gloves
+    400064: group
+    400066: Hair2
+    400068: Hair3
+    400070: Hair4
+    400072: Hair5
+    400074: Hair6
+    400076: Hair7
+    400078: HairClip
+    400080: HairClip1
+    400082: HLightL
+    400084: HLightLG
+    400086: HLightR
+    400088: HLightRG
+    400090: Hood
+    400092: Hood_Carbon
+    400094: Interior
+    400096: License
+    400098: LightPreset
+    400100: MirrorL
+    400102: MirrorR
+    400104: Null
+    400106: PantsLower
+    400108: PantsLowerTrim
+    400110: PantStraps
+    400112: PantsUpper
+    400114: PantsUpperButtons
+    400116: PantsUpperTrim
+    400118: Plane
+    400120: //RootNode
+    400122: ScoutShip_ScoutShip
+    400124: ShoeClip
+    400126: Shoes1
+    400128: ShoeSeams
+    400130: Shorts
+    400132: Sinon - Sword Art Online
+    400134: Spoiler
+    400136: SuperSpoiler
+    400138: TireFL
+    400140: TireFR
+    400142: TireRL
+    400144: TireRR
+    400146: TorsoUpper
+    400148: TurnTableCamera
+    400150: USpoiler
+    400152: V-Ray Area
+    2300000: AmmoClip
+    2300002: AmmoClipCover
+    2300004: Base
+    2300006: Base_Detached
+    2300008: BeltActivator
+    2300010: BeltActivatorButton
+    2300012: BeltBuckle
+    2300014: BLightL
+    2300016: BLightR
+    2300018: Body
+    2300020: BrakeFL
+    2300022: BrakeFR
+    2300024: BrakeRL
+    2300026: BrakeRR
+    2300028: BreastClip
+    2300030: BreastPlateButtons
+    2300032: BreastPlateDark
+    2300034: BreastPlateLight
+    2300036: BreastPlateStrap
+    2300038: BreastPlateStrapsClips
+    2300040: BreatPlateButtonsLower
+    2300042: Driver
+    2300044: Engine_Cube
+    2300046: Eyes_Brows
+    2300048: Eyes_Eyeballs
+    2300050: Eyes_Iris
+    2300052: Eyes_Lashes
+    2300054: Eyes_Pupil
+    2300056: girl_pivot
+    2300058: Gloves
+    2300060: Hair2
+    2300062: Hair3
+    2300064: Hair4
+    2300066: Hair5
+    2300068: Hair6
+    2300070: Hair7
+    2300072: HairClip
+    2300074: HairClip1
+    2300076: HLightL
+    2300078: HLightLG
+    2300080: HLightR
+    2300082: HLightRG
+    2300084: Hood
+    2300086: Hood_Carbon
+    2300088: Interior
+    2300090: License
+    2300092: MirrorL
+    2300094: MirrorR
+    2300096: PantsLower
+    2300098: PantsLowerTrim
+    2300100: PantStraps
+    2300102: PantsUpper
+    2300104: PantsUpperButtons
+    2300106: PantsUpperTrim
+    2300108: Plane
+    2300110: ScoutShip_ScoutShip
+    2300112: ShoeClip
+    2300114: Shoes1
+    2300116: ShoeSeams
+    2300118: Shorts
+    2300120: Spoiler
+    2300122: SuperSpoiler
+    2300124: TireFL
+    2300126: TireFR
+    2300128: TireRL
+    2300130: TireRR
+    2300132: TorsoUpper
+    2300134: USpoiler
+    3300000: AmmoClip
+    3300002: AmmoClipCover
+    3300004: Base
+    3300006: Base_Detached
+    3300008: BeltActivator
+    3300010: BeltActivatorButton
+    3300012: BeltBuckle
+    3300014: BLightL
+    3300016: BLightR
+    3300018: Body
+    3300020: BrakeFL
+    3300022: BrakeFR
+    3300024: BrakeRL
+    3300026: BrakeRR
+    3300028: BreastClip
+    3300030: BreastPlateButtons
+    3300032: BreastPlateDark
+    3300034: BreastPlateLight
+    3300036: BreastPlateStrap
+    3300038: BreastPlateStrapsClips
+    3300040: BreatPlateButtonsLower
+    3300042: Driver
+    3300044: Engine_Cube
+    3300046: Eyes_Brows
+    3300048: Eyes_Eyeballs
+    3300050: Eyes_Iris
+    3300052: Eyes_Lashes
+    3300054: Eyes_Pupil
+    3300056: girl_pivot
+    3300058: Gloves
+    3300060: Hair2
+    3300062: Hair3
+    3300064: Hair4
+    3300066: Hair5
+    3300068: Hair6
+    3300070: Hair7
+    3300072: HairClip
+    3300074: HairClip1
+    3300076: HLightL
+    3300078: HLightLG
+    3300080: HLightR
+    3300082: HLightRG
+    3300084: Hood
+    3300086: Hood_Carbon
+    3300088: Interior
+    3300090: License
+    3300092: MirrorL
+    3300094: MirrorR
+    3300096: PantsLower
+    3300098: PantsLowerTrim
+    3300100: PantStraps
+    3300102: PantsUpper
+    3300104: PantsUpperButtons
+    3300106: PantsUpperTrim
+    3300108: Plane
+    3300110: ScoutShip_ScoutShip
+    3300112: ShoeClip
+    3300114: Shoes1
+    3300116: ShoeSeams
+    3300118: Shorts
+    3300120: Spoiler
+    3300122: SuperSpoiler
+    3300124: TireFL
+    3300126: TireFR
+    3300128: TireRL
+    3300130: TireRR
+    3300132: TorsoUpper
+    3300134: USpoiler
+    4300000: Engine_Cube
+    4300002: Base_Detached
+    4300004: girl_pivot
+    4300006: Plane
+    4300008: Hair5
+    4300010: HairClip1
+    4300012: Gloves
+    4300014: Shorts
+    4300016: Hair4
+    4300018: AmmoClipCover
+    4300020: BreastPlateLight
+    4300022: Hair6
+    4300024: BeltActivatorButton
+    4300026: BreatPlateButtonsLower
+    4300028: AmmoClip
+    4300030: HairClip
+    4300032: Hair7
+    4300034: Eyes_Pupil
+    4300036: BreastPlateStrapsClips
+    4300038: BreastPlateStrap
+    4300040: PantsLowerTrim
+    4300042: BeltBuckle
+    4300044: PantsUpper
+    4300046: Hair3
+    4300048: Hair2
+    4300050: Eyes_Eyeballs
+    4300052: BreastClip
+    4300054: Shoes1
+    4300056: ShoeSeams
+    4300058: PantsUpperButtons
+    4300060: BreastPlateButtons
+    4300062: PantsUpperTrim
+    4300064: Eyes_Lashes
+    4300066: Eyes_Brows
+    4300068: PantsLower
+    4300070: PantStraps
+    4300072: BeltActivator
+    4300074: ShoeClip
+    4300076: Eyes_Iris
+    4300078: TorsoUpper
+    4300080: BreastPlateDark
+    4300082: BrakeFL
+    4300084: License
+    4300086: MirrorL
+    4300088: Hood
+    4300090: HLightRG
+    4300092: BLightL
+    4300094: BrakeFR
+    4300096: TireRR
+    4300098: HLightL
+    4300100: Interior
+    4300102: HLightR
+    4300104: Driver
+    4300106: TireRL
+    4300108: BrakeRL
+    4300110: USpoiler
+    4300112: Body
+    4300114: TireFL
+    4300116: MirrorR
+    4300118: SuperSpoiler
+    4300120: BrakeRR
+    4300122: HLightLG
+    4300124: TireFR
+    4300126: Spoiler
+    4300128: Base
+    4300130: BLightR
+    4300132: Hood_Carbon
+    4300134: ScoutShip_ScoutShip
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Badging_Chrome0
+    second: {fileID: 2100000, guid: 1f2937599c10a064eb5850c7f2f29bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 9adc2be3d059f2549ba469df5b2e943c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: 97667855e5ccd7a40b42f94cc37a01eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom
+    second: {fileID: 2100000, guid: 0e8f9d5d65d5e65428e7162631fb1734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake_Disc
+    second: {fileID: 2100000, guid: ee37b0cc005cc284da1dcdf9948b2121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake_Disc0
+    second: {fileID: 2100000, guid: ee37b0cc005cc284da1dcdf9948b2121, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_paint_Burgundy
+    second: {fileID: 2100000, guid: a7072be90331a494facdfc67cea3749a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbon
+    second: {fileID: 2100000, guid: 057d4dcfd3639c34e96bcce284a59c51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark
+    second: {fileID: 2100000, guid: 258a8fdad80cfdf409a63fd3b67a180d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_G
+    second: {fileID: 2100000, guid: aab7b2ee23b463a4693a7d449d63e4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dress
+    second: {fileID: 2100000, guid: c25f9737a03a7df43be20357ad06fc27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Driver
+    second: {fileID: 2100000, guid: aaaf0b58ea64ae5409139b51061d0f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 668ff52929ac72b43a5ba0fd7f5ad591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face
+    second: {fileID: 2100000, guid: 0816f2a95e39b0b4e8dfeab52f453761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face2
+    second: {fileID: 2100000, guid: 882d67d592c99c842b40ae31a2d2175c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: 39c78083e68c9f843b33bba4f230fb63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 268ad294963601342b9b51b15260d2ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair1
+    second: {fileID: 2100000, guid: ad0346c790517324089967349452e197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 2843d9c54cfd7cd41988b2731970893c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: 58cbc376abf7ab64f8e447a483c4714e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: License
+    second: {fileID: 2100000, guid: 583c8db13d45c5a418d0d3254cc547ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: License0
+    second: {fileID: 2100000, guid: 583c8db13d45c5a418d0d3254cc547ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightBulb
+    second: {fileID: 2100000, guid: de94606bdacf8c845943740c45ed7061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material1
+    second: {fileID: 2100000, guid: 00344c3ba4bcd124788fefade80fbd15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material2
+    second: {fileID: 2100000, guid: c1e5db4c691f3b24ca2e7fa697892d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material3
+    second: {fileID: 2100000, guid: bac2761a0aa2d9c44aa68438f458c34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__584
+    second: {fileID: 2100000, guid: 522d61b0f19c9624791c0aece3281955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__588
+    second: {fileID: 2100000, guid: 5ac5cf3b80b36924f9f8ebcae5f8e04c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__597
+    second: {fileID: 2100000, guid: 3b049892a6a9def42a699b26b05507d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__598
+    second: {fileID: 2100000, guid: aae5fa10b4e442e44b4addfeb903c369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__610
+    second: {fileID: 2100000, guid: 77be7951897ee4949b9ef5436366c740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Misc
+    second: {fileID: 2100000, guid: 85d696ccfb0c3bb49ad72a87cfbc8755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Misc1
+    second: {fileID: 2100000, guid: 40aaf9aadae46a4419a8c764f9412f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Misc2
+    second: {fileID: 2100000, guid: 40aaf9aadae46a4419a8c764f9412f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Misc_Chrome
+    second: {fileID: 2100000, guid: 40aaf9aadae46a4419a8c764f9412f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c7b48eec916d01d41b89fb5fb154eed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes
+    second: {fileID: 2100000, guid: 2be333d99bd54df438002189b7558762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: d157b940b9e088545957f0bbb1c2c7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin1
+    second: {fileID: 2100000, guid: 5d085208deeeab44b8919aace0511568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire_Back
+    second: {fileID: 2100000, guid: 5ed1972018d158f48b7ae1dd7fdc1f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire_Sidewall
+    second: {fileID: 2100000, guid: 05b1268c00816ab41b0ce39f0557c843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VR_Glass
+    second: {fileID: 2100000, guid: 34f983f1634115d4e9ba4c860a98f475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl
+    second: {fileID: 2100000, guid: af21f2357cb50f94386a3f2db5bfcfdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: fe3d7535bdafbe34c95e5d7cb70a9697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow
+    second: {fileID: 2100000, guid: a7f5f016b947e9743a928dd3741f8a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _8be34e5_dds
+    second: {fileID: 2100000, guid: 263038afcf8270946a4302e8e3af0ada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _c203d00_dds
+    second: {fileID: 2100000, guid: 05af7bbf334df90408aa1b4703802231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminium_matte
+    second: {fileID: 2100000, guid: 9783103bcb93639438da2d7eae90f962, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_material
+    second: {fileID: 2100000, guid: ccf5d68deb4b18b43867e6a78303661f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

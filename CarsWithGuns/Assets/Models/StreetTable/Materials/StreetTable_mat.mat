@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StreetTable_mat
+  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: c460639f190b82e4986eee9bafa1d6e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cubemap
+      second:
+        m_Texture: {fileID: 8900000, guid: 2b9f65f9313cb424c9fe4ae3882fc5e1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: 165ad4993903a3546962dd1c93936ed3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IllumText
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: f08dc6c908fba884b9e5002faf4dbe18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 9d842553c6dbe4e48b715df0c4e1b47e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 9d842553c6dbe4e48b715df0c4e1b47e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Shining
+      second:
+        m_Texture: {fileID: 2800000, guid: 15aaf1c9426a90a45a790ba0a4537ddf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _cubemap
+      second:
+        m_Texture: {fileID: 8900000, guid: 2b9f65f9313cb424c9fe4ae3882fc5e1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _illum
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _shining
+      second:
+        m_Texture: {fileID: 2800000, guid: 15aaf1c9426a90a45a790ba0a4537ddf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ADD_gloss
+      second: 0.9153439
+    - first:
+        name: _GlossHigh
+      second: 0.7169596
+    - first:
+        name: _GlossLow
+      second: 0.1666343
+    - first:
+        name: _HighSpecMultiplayer
+      second: 1.91453
+    - first:
+        name: _Shininess
+      second: 0.67574006
+    - first:
+        name: _Spec_Pic_range
+      second: 1
+    - first:
+        name: _cubemap_modifier
+      second: 0.1
+    - first:
+        name: _range
+      second: 0
+    m_Colors:
+    - first:
+        name: _ADD_specular
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _CubeColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _DiffColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _HighSpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _IllumColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _LowSpecColor
+      second: {r: 0.07352942, g: 0.07352942, b: 0.07352942, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _color
+      second: {r: 0.36567163, g: 0.34384048, b: 0.34384048, a: 1}
+    - first:
+        name: _color_cubemap
+      second: {r: 0.38805968, g: 0.38805968, b: 0.38805968, a: 1}
+    - first:
+        name: _color_illum
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _diff_color
+      second: {r: 1, g: 0.977612, b: 0.977612, a: 1}

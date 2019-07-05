@@ -1,0 +1,5 @@
+E:\Romain\3D\Mesh\Knightrider\t$m$p$$$\IndusrialTruckmax.max
+E:\Romain\3D\Mesh\Knightrider\t$m$p$$$\MAXFILES.TXT
+C:\3dsmax6\maps\Lakerem.jpg
+E:\3dmax\Textures\002ciel.jpg
+C:\3dsmax6\maps\Metal\MtlPlat2_Bump.jpg
