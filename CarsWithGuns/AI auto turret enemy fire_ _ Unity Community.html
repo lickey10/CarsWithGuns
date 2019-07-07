@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/ -->
+<html id="XenForo" lang="en-US" dir="LTR" class="Public LoggedOut NoSidebar  Responsive hasJs NoTouch HasDragDrop js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xmlns:fb="http://www.facebook.com/2008/fbml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+		<!--<base href="http://forum.unity3d.com/">--><base href=".">
+		<script async="" src="./AI auto turret enemy fire_ _ Unity Community_files/async-ads.js"></script><script async="" src="./AI auto turret enemy fire_ _ Unity Community_files/async-ads.js"></script><script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/elqCfg.min.js"></script><script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/cse.js"></script><script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/cse.js"></script><script async="" src="./AI auto turret enemy fire_ _ Unity Community_files/gtm.js"></script><script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/cse.js"></script><script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/ga.js"></script><script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "http://forum.unity3d.com/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>AI auto turret enemy fire? | Unity Community</title>
+	
+	
+	<link rel="stylesheet" href="./AI auto turret enemy fire_ _ Unity Community_files/css.php">
+	<link rel="stylesheet" href="./AI auto turret enemy fire_ _ Unity Community_files/css(1).php">
+	
+	
+
+	
+		<script src="./AI auto turret enemy fire_ _ Unity Community_files/jquery-1.11.0.min.js"></script>	
+		
+	<script src="./AI auto turret enemy fire_ _ Unity Community_files/xenforo.js"></script>
+
+	
+	<link rel="apple-touch-icon" href="http://forum.unity3d.com/styles/default/xenforo/logo.og.png">
+	<link rel="alternate" type="application/rss+xml" title="RSS feed for Unity Community" href="http://forum.unity3d.com/forums/-/index.rss">
+	
+	
+	<link rel="canonical" href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/">
+	<meta name="description" content="For my fps game I want AI enemy fire or invisible auto turrets or bullet projectiles to shoot at my player when the character reaches a certain point...">
+
+<!-- Custom head -->
+	<!-- Fav Icon. -->
+	<link rel="shortcut icon" href="http://unity3d.com/profiles/unity3d/themes/unity/images/assets/favicons/favicon.ico">
+	<link rel="icon" type="image/png" href="http://unity3d.com/profiles/unity3d/themes/unity/images/assets/favicons/favicon.png">
+	<!-- JS -->
+	<script type="text/javascript" async="" src="./AI auto turret enemy fire_ _ Unity Community_files/cp.js"></script>
+	<script type="text/javascript">var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-2854981-1']); _gaq.push(['_setDomainName', 'unity3d.com']); _gaq.push(['_trackPageview']); (function() {   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
+	<script>(function(){ var cx = '002645370080425984202:i_d7wpkpdzy'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+  
+  
+  <script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/modernizr.min.js"></script>
+
+  <script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/core.js"></script>
+  <script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/mobile-core.js"></script>
+	<!-- Css -->
+  
+	<link href="./AI auto turret enemy fire_ _ Unity Community_files/responsive-core.css" media="screen" rel="stylesheet">
+<!-- /Custom head -->
+
+
+<script src="./AI auto turret enemy fire_ _ Unity Community_files/jsapi" type="text/javascript"></script><script src="./AI auto turret enemy fire_ _ Unity Community_files/jsapi" type="text/javascript"></script><script src="./AI auto turret enemy fire_ _ Unity Community_files/jsapi" type="text/javascript"></script><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default+en.css" rel="stylesheet"><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default.css" rel="stylesheet"><script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/default+en.I.js"></script><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default+en.css" rel="stylesheet"><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default.css" rel="stylesheet"><script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/default+en.I.js"></script><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default+en.css" rel="stylesheet"><link type="text/css" href="./AI auto turret enemy fire_ _ Unity Community_files/default.css" rel="stylesheet"><script type="text/javascript" src="./AI auto turret enemy fire_ _ Unity Community_files/default+en.I.js"></script><style type="text/css">
+.gsc-control-cse {
+font-family: Arial, sans-serif;
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-control-cse .gsc-table-result {
+font-family: Arial, sans-serif;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+border-color: #D9D9D9;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+border-color: #2F5BB7;
+background-color: #357AE8;
+background-image: none;
+filter: none;
+}
+.gsc-tabHeader.gsc-tabhInactive {
+border-color: #CCCCCC;
+background-color: #FFFFFF;
+}
+.gsc-tabHeader.gsc-tabhActive {
+border-color: #CCCCCC;
+border-bottom-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-tabsArea {
+border-color: #CCCCCC;
+}
+.gsc-webResult.gsc-result,
+.gsc-results .gsc-imageResult {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-webResult.gsc-result:hover,
+.gsc-imageResult:hover {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b {
+color: #5284BD;
+}
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b {
+color: #5284BD;
+}
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b {
+color: #5284BD;
+}
+.gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b {
+color: #5284BD;
+}
+.gsc-cursor-page {
+color: #5284BD;
+}
+a.gsc-trailing-more-results:link {
+color: #5284BD;
+}
+.gs-webResult .gs-snippet,
+.gs-imageResult .gs-snippet,
+.gs-fileFormatType {
+color: #333333;
+}
+.gs-webResult div.gs-visibleUrl,
+.gs-imageResult div.gs-visibleUrl {
+color: #009933;
+}
+.gs-webResult div.gs-visibleUrl-short {
+color: #009933;
+}
+.gs-webResult div.gs-visibleUrl-short {
+display: none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+display: block;
+}
+.gs-promotion div.gs-visibleUrl-short {
+display: none;
+}
+.gs-promotion div.gs-visibleUrl-long {
+display: block;
+}
+.gsc-cursor-box {
+border-color: #FFFFFF;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+border-color: #CCCCCC;
+background-color: #FFFFFF;
+color: #5284BD;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+border-color: #CCCCCC;
+background-color: #FFFFFF;
+color: #5284BD;
+}
+.gsc-webResult.gsc-result.gsc-promotion {
+border-color: #F6F6F6;
+background-color: #F6F6F6;
+}
+.gsc-completion-title {
+color: #5284BD;
+}
+.gsc-completion-snippet {
+color: #333333;
+}
+.gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link *,
+.gs-promotion .gs-snippet a:link {
+color: #1155CC;
+}
+.gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited *,
+.gs-promotion .gs-snippet a:visited {
+color: #1155CC;
+}
+.gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover *,
+.gs-promotion .gs-snippet a:hover {
+color: #1155CC;
+}
+.gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active *,
+.gs-promotion .gs-snippet a:active {
+color: #1155CC;
+}
+.gs-promotion .gs-snippet,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+color: #333333;
+}
+.gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl-short {
+color: #009933;
+}
+.gsc-input input.gsc-input {
+background: none repeat scroll 0% 0% white !important;
+}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gscsep_a{display:none}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_a{padding:0 9px}.gsib_a{padding-right:8px;padding-left:8px}.gsst_a{padding-top:3px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gscsep_a{display:none}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_a{padding:0 9px}.gsib_a{padding-right:8px;padding-left:8px}.gsst_a{padding-top:3px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style></head>
+
+<body class="node12 node4 SelectQuotable">
+
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXKTVW');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+ <div id="headerMover">
+ <div id="master-wrapper">
+  <div id="page" class="page clear">
+   
+
+
+
+
+<header id="section-header" class="section section-header mb40">
+ <div class="header-wrapper">
+  <div class="top-fill">
+   <div class="wrap">
+    <div class="fill"></div>
+   </div>
+  </div>
+  
+  <nav class="top-nav">
+   <div class="wrap">
+    <div class="shard"></div>
+    <div class="logo"><a href="http://unity3d.com/"></a></div>
+    <ul>
+     <li><a href="http://unity3d.com/unity">Unity</a></li>
+     <li><a href="http://unity3d.com/services">Services</a></li>
+     <li><a href="http://unity3d.com/showcase">Made with Unity</a></li>
+     <li><a href="http://unity3d.com/learn">Learn</a></li>
+     <li><a href="http://unity3d.com/community" class="active-trail">Community</a></li>
+     <li class="menu-366"><a href="http://unity3d.com/asset-store">Asset Store</a></li>
+     <li class="menu-2982 last"><a href="http://unity3d.com/get-unity" title="">Get Unity</a></li>
+    </ul>
+     
+    <div class="user-icon"></div>
+    <div class="search-icon"></div>
+    <div class="search-wrapper">
+     <script>(function(){ var cx = '002645370080425984202:i_d7wpkpdzy'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+     <div class="search-box"><div id="___gcse_0"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 " style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;"><span class="gscb_a" id="gs_cb50">×</span></a></div></td></tr></tbody></table></div><input type="hidden" name="bgresponse" id="bgresponse"></td><td class="gsc-search-button"><input type="image" src="./AI auto turret enemy fire_ _ Unity Community_files/search_box_icon.png" class="gsc-search-button gsc-search-button-v2" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr style="display: none;"><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="./AI auto turret enemy fire_ _ Unity Community_files/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form></div></div></div>
+    </div>
+    
+    <div class="user-wrapper">
+      <div class="content clear">
+        
+    <h2>Unity Account</h2>
+    <small class="bb mb15">You need a Unity Account to shop in the Online and Asset Stores, participate in the Unity Community and manage your license portfolio.</small>
+    <a href="http://forum.unity3d.com/login/" class="blue-btn sbtn mr10">Login</a>
+    <a href="https://accounts.unity3d.com/sign-up" class="gray-btn sbtn">Create account</a>
+  
+      </div>
+    </div>
+   </div>
+  </nav>
+
+  <nav class="sub-nav">
+   <div class="wrap">
+    <div class="sub-fill"></div>
+    <ul class="secondary-menu">
+     <li class="menu-383 first"><a class="active-trail" href="http://forum.unity3d.com/" title="">Forums</a></li>
+     <li class="menu-384"><a href="http://answers.unity3d.com/" title="">Answers</a></li>
+     <li class="menu-385"><a href="http://feedback.unity3d.com/" title="">Feedback</a></li>
+     <li class="menu-767"><a href="http://issuetracker.unity3d.com/" title="">Issue Tracker</a></li>
+     <li class="menu-933"><a href="http://blogs.unity3d.com/" title="">Blog</a></li>
+     <li class="menu-764"><a href="http://evangelists.unity3d.com/" title="">Evangelists</a></li>
+     <li class="menu-860 last"><a href="http://unity3d.com/community/user-groups" title="">User Groups</a></li>
+    </ul>
+    
+    <script> var submore = 'More'; </script>
+   </div>
+  </nav>
+ </div>
+</header>
+			
+			<nav class="mobile-menu">
+				<div class="wrap">		
+					<div class="mobile-search">
+						<script>(function(){ var cx = '002645370080425984202:i_d7wpkpdzy'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script>
+						<div class="search-box"><div id="___gcse_1"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id2"><table cellspacing="0" cellpadding="0" id="gs_id51" class="gstl_51 " style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti51" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id2" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st51" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;"><span class="gscb_a" id="gs_cb51">×</span></a></div></td></tr></tbody></table></div><input type="hidden" name="bgresponse" id="bgresponse"></td><td class="gsc-search-button"><input type="image" src="./AI auto turret enemy fire_ _ Unity Community_files/search_box_icon.png" class="gsc-search-button gsc-search-button-v2" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr style="display: none;"><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="./AI auto turret enemy fire_ _ Unity Community_files/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form></div></div></div>
+					</div>
+					<div class="menu">
+						<h2>Navigation</h2>
+						<ul>
+							<li><a href="http://unity3d.com/">Home</a></li>
+							<li><a href="http://unity3d.com/unity">Unity</a></li>
+							<li><a href="http://unity3d.com/services">Services</a></li>
+							<li><a href="http://unity3d.com/showcase">Made with Unity</a></li>
+							<li><a href="http://unity3d.com/learn">Learn</a></li>
+							<li><a href="http://unity3d.com/community" class="active-trail">Community</a>
+							  <ul class="secondary-menu">
+							    <li class="menu-383 first"><a class="active-trail" href="http://forum.unity3d.com/" title="">Forums</a></li>
+							    <li class="menu-384"><a href="http://answers.unity3d.com/" title="">Answers</a></li>
+							    <li class="menu-385"><a href="http://feedback.unity3d.com/" title="">Feedback</a></li>
+							    <li class="menu-767"><a href="http://issuetracker.unity3d.com/" title="">Issue Tracker</a></li>
+							    <li class="menu-933"><a href="http://blogs.unity3d.com/" title="">Blog</a></li>
+							    <li class="menu-764"><a href="http://evangelists.unity3d.com/" title="">Evangelists</a></li>
+							    <li class="menu-860 last"><a href="http://unity3d.com/community/user-groups" title="">User Groups</a></li>
+							  </ul>
+							</li>
+							<li><a href="https://www.assetstore.unity3d.com/">Asset Store</a></li>
+							<li><a href="http://unity3d.com/get-unity">Get Unity</a></li>
+						</ul>
+					</div>
+		<div class="user">
+			<div class="content clear">
+			  
+    <h2>Unity Account</h2>
+    <small class="bb mb15">You need a Unity Account to shop in the Online and Asset Stores, participate in the Unity Community and manage your license portfolio.</small>
+    <a href="http://forum.unity3d.com/login/" class="blue-btn sbtn mr10">Login</a>
+    <a href="https://accounts.unity3d.com/sign-up" class="gray-btn sbtn">Create account</a>
+  
+		  </div>
+		</div>
+		<div class="lang clear">
+			<h2>Language</h2>
+			<div class="language-switcher">
+        <ul id="mobile-lang" class="languages">
+          <li><a href="http://unity3d.com/cn/community" data-lang="cn" lang="zh-hans" hreflang="zh-hans">中文</a></li>
+          <li><a href="http://unity3d.com/kr/community" data-lang="kr" lang="ko" hreflang="ko">한국어</a></li>
+          <li><a href="http://unity3d.com/pt/community" data-lang="pt" lang="pt" hreflang="pt">Portugués</a></li>
+          <li><a href="http://unity3d.com/ru/community" data-lang="ru" lang="ru" hreflang="ru">Русский</a></li>
+          <li><a href="http://unity3d.com/es/community" data-lang="es" lang="es" hreflang="es">Español</a></li>
+          <li><a href="http://japan.unity3d.com/" data-lang="jp">日本語</a></li>
+        </ul>
+      </div>
+    </div>
+  </div></nav>
+
+   
+   
+
+
+
+
+<section id="section-content" class="thread_view section section-content">
+<header class="m-header clear">
+					<div class="m-logo"><a href="http://unity3d.com/"></a></div>
+					<div class="m-navbtn rel"><div class="lines"></div></div>
+					<div class="m-searchbtn btn"></div>
+					<div class="m-userbtn btn"></div>
+				</header>
+<div class="background"></div>
+<div class="hero clear"></div>
+<section id="content" class="thread_view content-wrapper gw clear mb80">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			
+			
+			
+			
+			
+						
+						
+						
+						
+						<div class="breadBoxTop ">
+							
+							
+
+<nav>
+	
+		
+			
+				
+			
+		
+			
+				
+			
+		
+	
+
+	<fieldset class="breadcrumb" style="">
+		<a href="http://forum.unity3d.com/misc/quick-navigation-menu?selected=node-12" class="OverlayTrigger jumpMenuTrigger" data-cacheoverlay="true" title="Open quick navigation"><!--Jump to...--></a>
+			
+		<div class="boardTitle"><strong>Unity Community</strong></div>
+		
+		<span class="crumbs">
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="http://forum.unity3d.com/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Forums</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://forum.unity3d.com/#unity-community-support.4" class="crumb" rel="up" itemprop="url"><span itemprop="title">Unity Community Support</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+					<span class="crust" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a href="http://forum.unity3d.com/forums/scripting.12/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Scripting</span></a>
+						<span class="arrow"><span>&gt;</span></span>
+					</span>
+				
+			
+		</span>
+	</fieldset>
+</nav>
+						</div>
+						
+						
+						
+
+<div id="navigation" class="pageWidth withSearch">
+	<div class="nav-container">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+		
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums selected">
+			
+				<a href="http://forum.unity3d.com/" class="navLink">Forums</a>
+				
+				<div class="tabLinks forumsTabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Forums</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						<li><a href="http://forum.unity3d.com/search/?type=post">Search Forums</a></li>
+						
+						<li><a href="http://forum.unity3d.com/find-new/posts" rel="nofollow">Recent Posts</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+		
+		<!-- members -->
+		
+			<li class="navTab members Popup PopupControl PopupClosed">
+			
+				<a href="http://forum.unity3d.com/members/" class="navLink">Members</a>
+				
+				
+			</li>
+						
+		
+		<!-- extra tabs: end -->
+		
+
+		<!-- responsive popup -->
+		<li class="navTab navigationHiddenTabs Popup PopupControl PopupClosed PopupContainerControl" style="display: none;">	
+						
+			<a rel="Menu" class="navLink NoPopupGadget"><span class="menuIcon">Menu</span></a>
+			
+			
+		</li>
+			
+		
+		<!-- no selection -->
+		
+		
+	</ul>
+	
+	
+</div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+
+						
+					
+						<!--[if lt IE 8]>
+							<p class="importantMessage">You are using an out of date browser. It  may not display this or other websites correctly.<br />You should upgrade or use an <a href="https://www.google.com/chrome/browser/" target="_blank">alternative browser</a>.</p>
+						<![endif]-->
+
+						
+						
+
+
+
+
+<div class="PanelScroller" id="Notices" data-vertical="0" data-speed="400" data-interval="4000" style="display: block;">
+	<div class="scrollContainer">
+		<div class="PanelContainer" style="overflow: hidden; height: 62px;">
+			<ol class="Panels" style="width: 20000em; left: -1384px;"><li class="panel Notice DismissParent notice_11 cloned" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">4.7.1 released for Xcode 7.3 support. Thread</font> <a href="http://forum.unity3d.com/threads/unity-4-7-1-support-for-xcode-7-3.388211/" target="_blank"> <font color="#FF0066"> here. </font></a></div>
+	
+	
+</li>
+				
+					<li class="panel Notice DismissParent notice_17" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">Submit bugs to enter our 5.4 Beta Sweepstakes. Read more about it</font> <a href="http://forum.unity3d.com/threads/unity-5-4-beta-sweepstakes.400686/" target="_blank"> <font color="#FF0066"> here</font></a>.</div>
+	
+	
+</li>
+				
+					<li class="panel Notice DismissParent notice_14" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">Unity 5.4 public beta is now available for all users. Grab the</font> <a href="http://unity3d.com/unity/beta" target="_blank"> <font color="#FF0066"> build</font></a> <font color="#009ac0"> and visit the  </font><a href="http://forum.unity3d.com/forums/5-4-beta-forum.97/" target="_blank"> <font color="#FF0066"> 5.4 beta forum</font></a>.</div>
+	
+	
+</li>
+				
+					<li class="panel Notice DismissParent notice_10" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">Missing a module? More about the new installer in 5.3</font> <a href="http://forum.unity3d.com/threads/5-3-released.372567/page-2#post-2414948" target="_blank"> <font color="#FF0066"> here</font></a><font color="#009ac0">.</font></div>
+	
+	
+</li>
+				
+					<li class="panel Notice DismissParent notice_11" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">4.7.1 released for Xcode 7.3 support. Thread</font> <a href="http://forum.unity3d.com/threads/unity-4-7-1-support-for-xcode-7-3.388211/" target="_blank"> <font color="#FF0066"> here. </font></a></div>
+	
+	
+</li>
+				
+			<li class="panel Notice DismissParent notice_17 cloned" style="float: left; width: 692px; height: 62px;">
+	<div class="baseHtml noticeContent"><font color="#009ac0">Submit bugs to enter our 5.4 Beta Sweepstakes. Read more about it</font> <a href="http://forum.unity3d.com/threads/unity-5-4-beta-sweepstakes.400686/" target="_blank"> <font color="#FF0066"> here</font></a>.</div>
+	
+	
+</li></ol>
+		</div>
+	</div>
+	
+	<div class="navContainer">
+		<span class="navControls Nav JsOnly">
+			
+				<a id="n17" href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#n17" class="">
+					<span class="arrow"><span></span></span>
+					<!--1 -->Unity 5.4 Beta Sweepstakes</a>
+			
+				<a id="n14" href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#n14" class="current">
+					<span class="arrow"><span></span></span>
+					<!--2 -->5.4 public beta</a>
+			
+				<a id="n10" href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#n10" class="">
+					<span class="arrow"><span></span></span>
+					<!--3 -->5.3 Installer &amp; Modules</a>
+			
+				<a id="n11" href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#n11" class="">
+					<span class="arrow"><span></span></span>
+					<!--4 -->4.7.1</a>
+			
+		</span>
+	</div>
+</div>
+
+						
+						
+						
+						
+												
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								
+								<h1>AI auto turret enemy fire?</h1>
+								
+								<p id="pageDescription" class="muted ">
+	Discussion in '<a href="http://forum.unity3d.com/forums/scripting.12/">Scripting</a>' started by <a href="http://forum.unity3d.com/members/tezelian.442260/" class="username" dir="auto">Tezelian</a>, <a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/"><span class="DateTime" title="Dec 21, 2013 at 4:18 PM">Dec 21, 2013</span></a>.
+</p>
+							</div>
+						
+						
+						
+						
+						
+						<!-- main template -->
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<div class="pageNavLinkGroup">
+	<div class="linkGroup SelectionCountContainer">
+		
+		
+	</div>
+
+	
+</div>
+
+
+
+
+
+<form action="http://forum.unity3d.com/inline-mod/post/switch" method="post" class="InlineModForm section" data-cookiename="posts" data-controls="#InlineModControls" data-imodoptions="#ModerationSelect option">
+
+	<ol class="messageList" id="messageList">
+		
+			
+				
+
+
+<li id="post-1460894" class="message   " data-author="Tezelian">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/tezelian.442260/" class="username" dir="auto" itemprop="name">Tezelian</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/tezelian.442260/" class="avatar Av442260m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="Tezelian"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Oct 22, 2013</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=442260" class="concealed" rel="nofollow">178</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					For my fps game I want AI enemy fire or invisible auto turrets or bullet projectiles to shoot at my player when the character reaches a certain point or stops moving so the player dies, how can I do this? Are there any tutorials out there for this? <br>
+<br>
+Are there any scripts for AI enemy fire on Unity? <br>
+<br>
+Like I don't want the player to see the enemy, the point of the game is that you have to run away from enemy fire, if you stay in one position for too long you get killed...
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/tezelian.442260/" class="username author" dir="auto">Tezelian</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/" title="Permalink" class="datePermalink"><span class="DateTime" title="Dec 21, 2013 at 4:18 PM">Dec 21, 2013</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1460894/permalink">#1</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1460894"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1461173" class="message   " data-author="Casper_Stougaard">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/casper_stougaard.352246/" class="username" dir="auto" itemprop="name">Casper_Stougaard</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/casper_stougaard.352246/" class="avatar Av352246m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="Casper_Stougaard"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Jul 18, 2013</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=352246" class="concealed" rel="nofollow">60</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Here's a couple scripts i found some time ago that might help you.<br>
+<br>
+<br>
+<div class="bbCodeBlock bbCodeCode">
+  <div class="type">Code (csharp):</div>
+  <div class="code"><ol class="csharp" style="font-family:monospace;"><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008000; font-style: italic;">//Turret Script</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008000;">#pragma strict</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> projectile <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=GameObject"><span style="color: #2b91af;">GameObject</span></a>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> myTransform <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Transform"><span style="color: #2b91af;">Transform</span></a>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a> <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Transform"><span style="color: #2b91af;">Transform</span></a>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> turretControl <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Transform"><span style="color: #2b91af;">Transform</span></a>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> muzzlePositions <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Transform"><span style="color: #2b91af;">Transform</span></a><span style="color: #000000;">[</span><span style="color: #000000;">]</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> placed <span style="color: #008000;">:</span> <span style="color: #2b91af;">boolean</span> <span style="color: #008000;">=</span> <span style="color: #008de4;">false</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> reloadTime <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">1</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> turnSpeed <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">5</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> firePauseTime <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">0.25</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> errorAmount <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">1</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> damage <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">public</span> <span style="color: #008de4;">var</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=speed"><span style="color: #8b6ba6;">speed</span></a> <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">3</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> nextFireTime <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> nextMoveTime <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> aimError <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> desiredRotation <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Quaternion"><span style="color: #2b91af;">Quaternion</span></a>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> targetPos <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Vector3"><span style="color: #2b91af;">Vector3</span></a>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Start"><span style="color: #813400;">Start</span></a> <span style="color: #000000;">(</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; myTransform <span style="color: #008000;">=</span> transform;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Update"><span style="color: #813400;">Update</span></a> <span style="color: #000000;">(</span><span style="color: #000000;">)</span> </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<span style="color: #2b91af;">time</span> <span style="color: #008000;">&gt;=</span> nextMoveTime<span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CalculateAimPosition<span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; turretControl.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=rotation"><span style="color: #8b6ba6;">rotation</span></a> <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Quaternion"><span style="color: #2b91af;">Quaternion</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Lerp"><span style="color: #813400;">Lerp</span></a><span style="color: #000000;">(</span>turretControl.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=rotation"><span style="color: #8b6ba6;">rotation</span></a>, desiredRotation, <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=deltaTime"><span style="color: #8b6ba6;">deltaTime</span></a> <span style="color: #008000;">*</span> turnSpeed<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<span style="color: #2b91af;">time</span> <span style="color: #008000;">&gt;=</span> nextFireTime<span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FireProjectile<span style="color: #000000;">(</span><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span>placed <span style="color: #008000;">==</span> <span style="color: #008de4;">false</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">var</span> distance <span style="color: #008000;">=</span> transform.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a>.<span style="color: #2b91af;">z</span> <span style="color: #008000;">-</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Camera"><span style="color: #2b91af;">Camera</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=main"><span style="color: #8b6ba6;">main</span></a>.<span style="color: #2b91af;">transform</span>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a>.<span style="color: #2b91af;">z</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; targetPos <span style="color: #008000;">=</span> <span style="color: #008000;">new</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Vector3"><span style="color: #2b91af;">Vector3</span></a> <span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Input"><span style="color: #2b91af;">Input</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=mousePosition"><span style="color: #8b6ba6;">mousePosition</span></a>.<span style="color: #2b91af;">x</span>, <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Input"><span style="color: #2b91af;">Input</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=mousePosition"><span style="color: #8b6ba6;">mousePosition</span></a>.<span style="color: #2b91af;">y</span>, distance<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; targetPos <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Camera"><span style="color: #2b91af;">Camera</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=main"><span style="color: #8b6ba6;">main</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=ScreenToWorldPoint"><span style="color: #813400;">ScreenToWorldPoint</span></a><span style="color: #000000;">(</span>targetPos<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=OnTriggerEnter"><span style="color: #813400;">OnTriggerEnter</span></a> <span style="color: #000000;">(</span>other <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Collider"><span style="color: #2b91af;">Collider</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span>other.<span style="color: #2b91af;">gameObject</span>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=tag"><span style="color: #8b6ba6;">tag</span></a> <span style="color: #008000;">==</span> <span style="color: #a31515;">"Player"</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; nextFireTime <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<span style="color: #2b91af;">time</span> <span style="color: #008000;">+</span> <span style="color: #000000;">(</span>reloadTime <span style="color: #008000;">*</span> <span style="color: #0000c0;">0.5</span><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a> <span style="color: #008000;">=</span> other.<span style="color: #2b91af;">gameObject</span>.<span style="color: #2b91af;">transform</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=OnTriggerExit"><span style="color: #813400;">OnTriggerExit</span></a> <span style="color: #000000;">(</span>other <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Collider"><span style="color: #2b91af;">Collider</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span>other.<span style="color: #2b91af;">gameObject</span>.<span style="color: #2b91af;">transform</span> <span style="color: #008000;">==</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a> <span style="color: #008000;">=</span> <span style="color: #008de4;">null</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> CalculateAimPosition<span style="color: #000000;">(</span>targetPos <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Vector3"><span style="color: #2b91af;">Vector3</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">var</span> aimPoint <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Vector3"><span style="color: #2b91af;">Vector3</span></a> <span style="color: #000000;">(</span>targetPos.<span style="color: #2b91af;">x</span> <span style="color: #008000;">+</span> aimError, <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a>.<span style="color: #2b91af;">y</span> <span style="color: #008000;">+</span> aimError, <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=target"><span style="color: #8b6ba6;">target</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a>.<span style="color: #2b91af;">z</span> <span style="color: #008000;">+</span> aimError<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; desiredRotation <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Quaternion"><span style="color: #2b91af;">Quaternion</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=LookRotation"><span style="color: #813400;">LookRotation</span></a><span style="color: #000000;">(</span>aimPoint<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> CalculateAimError<span style="color: #000000;">(</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; aimError <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Random"><span style="color: #2b91af;">Random</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Range"><span style="color: #2b91af;">Range</span></a><span style="color: #000000;">(</span><span style="color: #008000;">-</span>errorAmount, errorAmount<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> FireProjectile<span style="color: #000000;">(</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=audio"><span style="color: #8b6ba6;">audio</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Play"><span style="color: #813400;">Play</span></a><span style="color: #000000;">(</span><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; nextFireTime <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<span style="color: #2b91af;">time</span> <span style="color: #008000;">+</span> reloadTime;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; nextMoveTime <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<span style="color: #2b91af;">time</span> <span style="color: #008000;">+</span> firePauseTime;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; CalculateAimError<span style="color: #000000;">(</span><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">for</span><span style="color: #000000;">(</span>theMuzzlePos <span style="color: #008de4;">in</span> muzzlePositions<span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">var</span> newProjectile <span style="color: #008000;">=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Instantiate"><span style="color: #813400;">Instantiate</span></a> <span style="color: #000000;">(</span>projectile, theMuzzlePos.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=position"><span style="color: #8b6ba6;">position</span></a>, theMuzzlePos.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=rotation"><span style="color: #8b6ba6;">rotation</span></a><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">var</span> projectileScript <span style="color: #008000;">:</span> Projectile_BallTurret;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; projectileScript <span style="color: #008000;">=</span> newProjectile.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=GetComponent"><span style="color: #813400;">GetComponent</span></a><span style="color: #000000;">(</span>Projectile_BallTurret<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; projectileScript.<span style="color: #2b91af;">damage</span> <span style="color: #008000;">=</span> damage;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+</ol></div>
+</div><div class="bbCodeBlock bbCodeCode">
+  <div class="type">Code (csharp):</div>
+  <div class="code"><ol class="csharp" style="font-family:monospace;"><li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008000; font-style: italic;">//Projectile Script</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008000;">#pragma strict</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=speed"><span style="color: #8b6ba6;">speed</span></a> <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">10</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> range <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span> <span style="color: #008000;">=</span> <span style="color: #0000c0;">10</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">var</span> damage <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">private</span> <span style="color: #008de4;">var</span> distance <span style="color: #008000;">:</span> <span style="color: #2b91af;">float</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Update"><span style="color: #813400;">Update</span></a> <span style="color: #000000;">(</span><span style="color: #000000;">)</span> </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; transform.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Translate"><span style="color: #813400;">Translate</span></a><span style="color: #000000;">(</span><a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Vector3"><span style="color: #2b91af;">Vector3</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=forward"><span style="color: #8b6ba6;">forward</span></a> <span style="color: #008000;">*</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=deltaTime"><span style="color: #8b6ba6;">deltaTime</span></a> <span style="color: #008000;">*</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=speed"><span style="color: #8b6ba6;">speed</span></a><span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; distance <span style="color: #008000;">+=</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Time"><span style="color: #2b91af;">Time</span></a>.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=deltaTime"><span style="color: #8b6ba6;">deltaTime</span></a> <span style="color: #008000;">*</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=speed"><span style="color: #8b6ba6;">speed</span></a>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span>distance <span style="color: #008000;">&gt;=</span> range<span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Destroy"><span style="color: #813400;">Destroy</span></a><span style="color: #000000;">(</span>gameObject<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #008de4;">function</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=OnTriggerEnter"><span style="color: #813400;">OnTriggerEnter</span></a> <span style="color: #000000;">(</span>other <span style="color: #008000;">:</span> <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Collider"><span style="color: #2b91af;">Collider</span></a><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">{</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #008de4;">if</span> <span style="color: #000000;">(</span>other.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=tag"><span style="color: #8b6ba6;">tag</span></a> <span style="color: #008000;">==</span> <span style="color: #a31515;">"Enemy"</span><span style="color: #000000;">)</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">{</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008de4;">var</span> enemyScript <span style="color: #008000;">:</span> EnemyScript;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; enemyScript <span style="color: #008000;">=</span> other.<a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=GetComponent"><span style="color: #813400;">GetComponent</span></a><span style="color: #000000;">(</span>EnemyScript<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; </div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; enemyScript.<span style="color: #2b91af;">ApplyDamage</span><span style="color: #000000;">(</span>damage<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; </div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; &nbsp; &nbsp; <a target="_blank" rel="nofollow" href="http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=Destroy"><span style="color: #813400;">Destroy</span></a><span style="color: #000000;">(</span>gameObject<span style="color: #000000;">)</span>;</div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp; &nbsp; <span style="color: #000000;">}</span></div></li>
+<li style="font-weight: normal; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;"><span style="color: #000000;">}</span></div></li>
+<li style="font-weight: bold; vertical-align:top;"><div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;">&nbsp;</div></li>
+</ol></div>
+</div>Here's how you set it up:<br>
+1: Create a new prefab.<br>
+2: Create a new sphere.<br>
+3: Add the Projectile Script to the sphere.<br>
+4: Add a rigidbody to the sphere.<br>
+5: Drag the sphere on to the prefab.<br>
+<br>
+6: Click the new prefab.<br>
+7: Set the variables: Speed, Range and Damage to whatever you like.<br>
+<br>
+You now have your projectile prefab ready.<br>
+<br>
+<br>
+Now to create the turret:<br>
+1: Create a new cube.<br>
+2: Create a new sphere.<br>
+3: Create a new cylinder.<br>
+4: Drag the sphere onto the cube, and position it so you think it looks good.<br>
+5: Drag the cylinder onto the sphere and position it so it looks like a barrel.<br>
+6: Drag the Turret Script on to the cube.<br>
+7: Click the cube, and drag the sphere onto the "turret control" variable.<br>
+8: Drag the projectile prefab from before onto the "projectile" variable.<br>
+9: Extend the "Muzzle Positions" type 1 in the "size" field.<br>
+10:  Drag the cylinder onto the new spot in the "Muzzle Positions".<br>
+11: Change the numbers in reloadTime, TurnSpeed, FirePauseTime, ErrorAmount, Damage and Speed to whatever you like.<br>
+12: Add a sphere collider component to the cube, and tick it as "Is Trigger".<br>
+13: Create a new prefab and drag the cube onto that prefab.<br>
+<br>
+Now it should all work.<br>
+<br>
+Now if an object with the tag "Player" enters the range of the turret, it will start firing at it.<br>
+<br>
+Hope this helps <img src="./AI auto turret enemy fire_ _ Unity Community_files/clear.png" class="mceSmilieSprite mceSmilie1" alt=":)" title="Smile    :)">
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/casper_stougaard.352246/" class="username author" dir="auto">Casper_Stougaard</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1461173" title="Permalink" class="datePermalink"><span class="DateTime" title="Dec 21, 2013 at 10:33 PM">Dec 21, 2013</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1461173" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1461173/permalink">#2</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1461173"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1461201" class="message   " data-author="Tezelian">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/tezelian.442260/" class="username" dir="auto" itemprop="name">Tezelian</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/tezelian.442260/" class="avatar Av442260m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="Tezelian"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Oct 22, 2013</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=442260" class="concealed" rel="nofollow">178</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Hey thanks, I will try it out as soon as my uni opens<br>
+<br>
+Also what if I didn't want a turret, is that possible?<br>
+<br>
+Like could I literally say if player enters a specific range from a sphere collide, then health meter goes down by x<br>
+<br>
+and or could I say if player not moving then health meter goes down by 5 and if player enters this area they die?<br>
+<br>
+So could I make hot spots or dead zones? Would that be easier?<br>
+<br>
+Thanks again <img src="./AI auto turret enemy fire_ _ Unity Community_files/clear.png" class="mceSmilieSprite mceSmilie1" alt=":)" title="Smile    :)">
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+			<div class="editDate">
+			
+				Last edited: <span class="DateTime" title="Dec 21, 2013 at 11:30 PM">Dec 21, 2013</span>
+			
+			</div>
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/tezelian.442260/" class="username author" dir="auto">Tezelian</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1461201" title="Permalink" class="datePermalink"><span class="DateTime" title="Dec 21, 2013 at 11:25 PM">Dec 21, 2013</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1461201" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1461201/permalink">#3</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1461201"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1515866" class="message   " data-author="midhunnagam">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="username" dir="auto" itemprop="name">midhunnagam</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="avatar Av550516m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="midhunnagam"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Feb 11, 2014</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=550516" class="concealed" rel="nofollow">4</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					Assets/projectile.js(51,27): BCE0018: The name 'EnemyScript' does not denote a valid type ('not found'). <br>
+i got this error while im add the script to sphere wat does it mean
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="username author" dir="auto">midhunnagam</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515866" title="Permalink" class="datePermalink"><span class="DateTime" title="Feb 11, 2014 at 5:37 AM">Feb 11, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515866" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1515866/permalink">#4</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1515866"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1515879" class="message   " data-author="geroppo">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/geroppo.170479/" class="username" dir="auto" itemprop="name">geroppo</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/geroppo.170479/" class="avatar Av170479m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="geroppo"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Dec 24, 2012</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=170479" class="concealed" rel="nofollow">98</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					<div class="bbCodeBlock bbCodeQuote" data-author="midhunnagam">
+	<aside>
+		
+			<div class="attribution type">midhunnagam said:
+				
+					<a href="http://forum.unity3d.com/goto/post?id=1515866#post-1515866" class="AttributionLink">↑</a>
+				
+			</div>
+		
+		<blockquote class="quoteContainer"><div class="quote">Assets/projectile.js(51,27): BCE0018: The name 'EnemyScript' does not denote a valid type ('not found'). <br>
+i got this error while im add the script to sphere wat does it mean</div><div class="quoteExpand">Click to expand...</div></blockquote>
+	</aside>
+</div>you need the "EnemyScript" class somewhere in your project
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/geroppo.170479/" class="username author" dir="auto">geroppo</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515879" title="Permalink" class="datePermalink"><span class="DateTime" title="Feb 11, 2014 at 5:53 AM">Feb 11, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515879" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1515879/permalink">#5</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1515879"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1515931" class="message   " data-author="midhunnagam">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="username" dir="auto" itemprop="name">midhunnagam</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="avatar Av550516m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="midhunnagam"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>Feb 11, 2014</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=550516" class="concealed" rel="nofollow">4</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					when i add projectile script to the sphere in console i got an error. " the name enemyscript does not denote a valid type"
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/midhunnagam.550516/" class="username author" dir="auto">midhunnagam</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515931" title="Permalink" class="datePermalink"><span class="DateTime" title="Feb 11, 2014 at 6:58 AM">Feb 11, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1515931" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1515931/permalink">#6</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1515931"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+			
+				
+
+
+<li id="post-1877626" class="message   " data-author="devean">
+
+	
+
+<div class="messageUserInfo" itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">	
+<div class="messageUserBlock ">
+<h3 class="userText">
+	<a href="http://forum.unity3d.com/members/devean.631025/" class="username" dir="auto" itemprop="name">devean</a>
+</h3>
+	
+		<div class="avatarHolder">
+			<span class="helper"></span>
+			<a href="http://forum.unity3d.com/members/devean.631025/" class="avatar Av631025m" data-avatarhtml="true"><img src="./AI auto turret enemy fire_ _ Unity Community_files/avatar_m.png" width="96" height="96" alt="devean"></a>
+			
+			<!-- slot: message_user_info_avatar -->
+		</div>
+	
+
+
+	
+		<h3 class="userText">
+		
+			
+			
+			<!-- slot: message_user_info_text -->
+		</h3>
+	
+		
+	
+		<div class="extraUserInfo">
+			
+			
+				
+					<dl class="pairsJustified">
+						<dt>Joined:</dt>
+						<dd>May 20, 2014</dd>
+					</dl>
+				
+				
+				
+					<dl class="pairsJustified">
+						<dt>Messages:</dt>
+						<dd><a href="http://forum.unity3d.com/search/member?user_id=631025" class="concealed" rel="nofollow">14</a></dd>
+					</dl>
+				
+				
+				
+				
+				
+			
+				
+				
+				
+				
+				
+			
+				
+							
+						
+			
+			
+		</div>
+	
+		
+
+
+	<span class="arrow"><span></span></span>
+</div>
+</div>
+
+	<div class="messageInfo primaryContent">
+		
+		
+		
+		
+		
+		<div class="messageContent">		
+			<article>
+				<blockquote class="messageText SelectQuoteContainer ugc baseHtml">
+					
+					can you please give an image of the turret you are using.
+					<div class="messageTextEndMarker">&nbsp;</div>
+				</blockquote>
+			</article>
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+				
+		<div class="messageMeta ToggleTriggerAnchor">
+			
+			<div class="privateControls">
+				
+				<span class="item muted">
+					<span class="authorEnd"><a href="http://forum.unity3d.com/members/devean.631025/" class="username author" dir="auto">devean</a>,</span>
+					<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1877626" title="Permalink" class="datePermalink"><span class="DateTime" title="Dec 8, 2014 at 6:50 AM">Dec 8, 2014</span></a>
+				</span>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+			<div class="publicControls">
+				<a href="http://forum.unity3d.com/threads/ai-auto-turret-enemy-fire.218858/#post-1877626" title="Permalink" class="item muted postNumber hashPermalink OverlayTrigger" data-href="posts/1877626/permalink">#7</a>
+				
+				
+				
+				
+			</div>
+		</div>
+	
+		
+		<div id="likes-post-1877626"></div>
+	</div>
+
+	
+	
+	
+	
+</li>
+			
+		
+		
+	</ol>
+
+	
+
+	<input type="hidden" name="_xfToken" value="">
+
+</form>
+
+
+	<div class="pageNavLinkGroup">
+		
+			
+				<div class="linkGroup">
+					
+						<label for="LoginControl"><a href="http://forum.unity3d.com/login/" class="concealed element">(You must log in or sign up to reply here.)</a></label>
+					
+				</div>
+			
+			<div class="linkGroup" style="display: none"><a href="javascript:" class="muted JsOnly DisplayIgnoredContent Tooltip">Show Ignored Content</a></div>
+
+			
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+						
+						
+						
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+
+
+<form action="http://forum.unity3d.com/login/login" method="post" class="xenForm eAuth" id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Your name or email address:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101"></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">Password:</label>
+			</dt>
+			<dd>
+				<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102">
+				<div class="lostPasswordLogin"><a href="http://forum.unity3d.com/lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Forgot your password?</a></div>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Log in" tabindex="104" data-loginphrase="Log in" data-signupphrase="Sign up">
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" id="ctrl_remember" tabindex="103"> Stay logged in</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1">
+	<input type="hidden" name="redirect" value="/threads/ai-auto-turret-enemy-fire.218858/">
+	<input type="hidden" name="_xfToken" value="">
+
+</form>
+						
+						
+					
+			
+
+						
+		</div>
+	</div>
+</section>
+
+
+
+</section>
+</div>
+</div>
+</div>
+
+<div class="overlay" style="-webkit-user-select: none; -webkit-user-drag: none; display: none; height: 2840px;"></div>
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1466282006,
+		today: 1466204400,
+		todayDow: 6
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"thread_view":true,"message":true,"bb_code":true,"message_user_info":true,"panel_scroller":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "cea38ffa"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+</script>
+
+
+
+
+
+
+<div class="Menu JsOnly tabMenu membersTabLinks" id="XenForoUniq0">
+					<div class="primaryContent menuHeader">
+						<h3>Members</h3>
+						<div class="muted">Quick Links</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						<li><a href="http://forum.unity3d.com/members/">Notable Members</a></li>
+						
+						<li><a href="http://forum.unity3d.com/online/">Current Visitors</a></li>
+						<li><a href="http://forum.unity3d.com/recent-activity/">Recent Activity</a></li>
+						
+					
+					</ul>
+				</div><div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div><script type="text/javascript" id="">var _elqQ=_elqQ||[];_elqQ.push(["elqSetSiteId","795651218"]);_elqQ.push(["elqUseFirstPartyCookie","eloqua-tracking.unity3d.com"]);_elqQ.push(["elqTrackPageView"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//img06.en25.com/i/elqCfg.min.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+
+<table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 2px; display: none; top: 3px; position: absolute; left: -1px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gstl_51 gssb_c" style="width: 226px; display: none; top: 49px; position: absolute; left: 909px;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>
