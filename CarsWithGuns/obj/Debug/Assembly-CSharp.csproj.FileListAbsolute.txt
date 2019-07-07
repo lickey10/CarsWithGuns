@@ -1,0 +1,3 @@
+D:\utilities\Programming\Unity\Projects\trunk\CarsWithGuns\CarsWithGuns\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\utilities\Programming\Unity\Projects\trunk\CarsWithGuns\CarsWithGuns\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\utilities\Programming\Unity\Projects\trunk\CarsWithGuns\CarsWithGuns\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

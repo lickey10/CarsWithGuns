@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menus/TitleScreen.unity
+    guid: e7f44416cdb43d9498402d449816a2a3
+  - enabled: 1
+    path: Assets/Scenes/Menus/Logo.unity
+    guid: 5a28ced7d57198a4bb4cf506599eeb22
+  - enabled: 0
+    path: Assets/Scenes/Menus/LevelMenu.unity
+    guid: de04a003efc3f6040b9cc72e61b96883
+  - enabled: 1
+    path: Assets/Scenes/ZombieRaceTrack.unity
+    guid: 27fd18727a217144d926a90818648166
+  - enabled: 1
+    path: Assets/Scenes/Menus/levelComplete.unity
+    guid: 8bc5f38632ca6f7439762d6ba4197a48
+  - enabled: 0
+    path: Assets/Scenes/Menus/youWon.unity
+    guid: 37447f64f053f214da8b009f0c677891
+  - enabled: 1
+    path: Assets/Scenes/Menus/gameover.unity
+    guid: 7cbadf5d73efb6642a3d6bf4f0906ff2
+  - enabled: 1
+    path: Assets/Scenes/MushroomLevel.unity
+    guid: c075878ac28bdf4498dbef924ce46d83
+  - enabled: 1
+    path: Assets/Scenes/desert.unity
+    guid: adae7f8881e1261428d4bb4b18ade23f
+  - enabled: 1
+    path: Assets/Scenes/WesternScene.unity
+    guid: f1398fee0705d8549b43977e1cd03c8c
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: 4df979fcce1662c4abeffaab2eb04060
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 8efd5a8b74ad79e4a9ee9d17e01e58ac
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 52c9117ab6dc0094ba00bcdd46c34158
+  - enabled: 1
+    path: Assets/Scenes/The_Viking_Village.unity
+    guid: 217f50a4b9fbfda41b4f6faee8d22d02
+  - enabled: 1
+    path: Assets/Scenes/Cemetary.unity
+    guid: 0820f82e549117e4c9f2da35bc4946e3
+  m_configObjects: {}
