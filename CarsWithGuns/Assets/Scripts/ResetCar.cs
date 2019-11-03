@@ -36,18 +36,18 @@ public class ResetCar : MonoBehaviour {
         Vector3[] vertices = mesh.vertices;
 
         GameObject scripts = GameObject.FindWithTag("Scripts");
-        ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
-        GameObject lastWayPoint = gameManager.LastWaypoint;
+        //ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
+        //GameObject lastWayPoint = gameManager.LastWaypoint;
 
         var spawnPoint = ResetLocation.transform.position;
         Player = GameObject.FindGameObjectWithTag("Player");
         Player.GetComponent<Rigidbody>().velocity = Vector3.zero;
         Player.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
-        if (lastWayPoint != null)
-        {
-            Player.transform.position = lastWayPoint.transform.position;
-            Player.transform.rotation = lastWayPoint.transform.rotation;
-        }
+        //if (lastWayPoint != null)
+        //{
+        //    Player.transform.position = lastWayPoint.transform.position;
+        //    Player.transform.rotation = lastWayPoint.transform.rotation;
+        //}
     }
 }

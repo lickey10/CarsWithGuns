@@ -298,8 +298,8 @@ namespace Scripts
 
                 if (scripts != null)
                 {
-                    ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
-                    gameManager.ActivateWaypoint(other.gameObject);
+                    //ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
+                    //gameManager.ActivateWaypoint(other.gameObject);
                 }
             }
         }

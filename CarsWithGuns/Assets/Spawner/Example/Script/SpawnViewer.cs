@@ -26,11 +26,11 @@ using System.Collections;
 [RequireComponent(typeof(Spawner))]
 public class SpawnViewer : MonoBehaviour
 {
-    private Spawner spawn;
+    private Spawner_SmileStudio spawn;
 
     void Start()
     {
-        spawn = gameObject.GetComponent<Spawner>();
+        spawn = gameObject.GetComponent<Spawner_SmileStudio>();
     }
 
     void OnGUI()

@@ -40,9 +40,9 @@ public class TreasureChest : MonoBehaviour {
 
             //pop out the diamond and add  money
             GameObject scripts = GameObject.FindWithTag("Scripts");
-            ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
-            gameManager.Coins = gameManager.Coins + 1000;
-            DBStoreController.singleton.balance += 1000;
+            //ScreenManager gameManager = scripts.GetComponent<ScreenManager>();
+            //gameManager.Coins = gameManager.Coins + 1000;
+            //DBStoreController.singleton.balance += 1000;
             Instantiate(Treasure, new Vector3(this.transform.position.x+2, this.transform.position.y + 3.5f,this.transform.position.z +2), Quaternion.identity);
 
             isOpen = true;

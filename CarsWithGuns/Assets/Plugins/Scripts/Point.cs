@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Point : MonoBehaviour {
+public class Point3 : MonoBehaviour {
    public float Points;
 private float GetHitEffect;
 private float targY;

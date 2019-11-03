@@ -5,7 +5,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Projectile : GDG_Main
+public class Projectile_GDG : GDG_Main
 {
 
 	public float lifetime = 10;

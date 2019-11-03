@@ -21,7 +21,7 @@ using CorruptedSmileStudio.Spawn;
 /// This class is required for the system to work, you will need to place this class on a GameObject with
 /// a tag of Spawner (However, this is changeable within the SpawnAI class).
 /// </description>
-public class Spawner : MonoBehaviour
+public class Spawner_SmileStudio : MonoBehaviour
 {
     #region Variables
     /// <summary>

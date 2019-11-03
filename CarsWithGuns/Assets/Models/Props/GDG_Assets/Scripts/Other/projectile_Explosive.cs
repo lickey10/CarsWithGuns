@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class projectile_Explosive : Projectile
+public class projectile_Explosive_GDG : Projectile_GDG
 {
 
 		public Transform explosion;

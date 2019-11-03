@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/City.unity
+- path: Assets/Arcade_Car_Physics/ACP_Demo.unity
   isLoaded: 1
   isActive: 1

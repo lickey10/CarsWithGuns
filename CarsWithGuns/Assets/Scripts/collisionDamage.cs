@@ -5,7 +5,7 @@ public class collisionDamage : MonoBehaviour {
 
     float smashDamage = 0;
     float topSmashDamage = 0;//this tracks the highest amount of damage dealt
-    Scripts.ScreenManager sceneManager = new Scripts.ScreenManager();
+    //Scripts.ScreenManager sceneManager = new Scripts.ScreenManager();
 
     // Use this for initialization
     void Start () {
@@ -24,15 +24,15 @@ public class collisionDamage : MonoBehaviour {
         if(other.gameObject.GetComponent<Collider>() != null)
             other.gameObject.GetComponent<Collider>().SendMessageUpwards("ApplyDamagePlayer", smashDamage, SendMessageOptions.DontRequireReceiver);
 
-        sceneManager.SmashDamage = sceneManager.SmashDamage + smashDamage;
+        //sceneManager.SmashDamage = sceneManager.SmashDamage + smashDamage;
 
         if (smashDamage > topSmashDamage)
             topSmashDamage = smashDamage;
 
         if (other.gameObject.tag == "Enemy")
         {
-            Scripts.ScreenManager.Kills++;
-            Scripts.ScreenManager.DeathByCar++;
+            //Scripts.ScreenManager.Kills++;
+            //Scripts.ScreenManager.DeathByCar++;
             bloodSplatter.blood = true; 
         }
     }

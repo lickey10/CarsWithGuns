@@ -25,7 +25,7 @@ public class SpawnAI : MonoBehaviour
 	/// <summary>
 	/// The Spawner owner of the spawned unit
 	/// </summary>
-	private Spawner mOwner;
+	private Spawner_SmileStudio mOwner;
 	/// <summary>
 	/// Remove this unit from the owner and Despawns the unit via InstanceManager
 	/// </summary>
@@ -41,7 +41,7 @@ public class SpawnAI : MonoBehaviour
 	/// Sets the owner.
 	/// </summary>
 	/// <param name="owner">The Spawner that spawned this unit.</param>
-	public virtual void SetOwner(Spawner owner)
+	public virtual void SetOwner(Spawner_SmileStudio owner)
     {
 		mOwner = owner;
     }
