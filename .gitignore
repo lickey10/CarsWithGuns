@@ -62,3 +62,7 @@ sysinfo.txt
 crashlytics-build.properties
 CarsWithGuns/Temp/
 CarsWithGuns/Library/
+CarsWithGuns/Library/ScriptAssemblies/
+CarsWithGuns/Library/ScriptMapper/
+CarsWithGuns/Library/StateCache/
+CarsWithGuns/Library/metadata
