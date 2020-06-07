@@ -14,7 +14,7 @@
 !/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
-# /[Aa]ssets/AssetStoreTools*
+ /[Aa]ssets/AssetStoreTools*
 
 # TextMesh Pro files
 [Aa]ssets/TextMesh*Pro/
@@ -60,5 +60,5 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-FlowerPops/Temp/UnityLockfile
-FlowerPops/Temp/__Backupscenes/0.backup
+CarsWithGuns/Temp/
+CarsWithGuns/Library/
