@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 2406a7cda1fb8ec42bc7b4593a564dc7
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: camera1
     100002: //RootNode
@@ -2412,277 +2412,534 @@ ModelImporter:
     4300948: prop_batteringRam_shield_top
     4300950: prop_batteringRam_shield_bottom
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 25b8cd122f4c39645b32750f8df2c4e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decal_pl1_ut8_mat
+    second: {fileID: 2100000, guid: ac5e3963bca60f7439758597b50f58b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_pneumatic_dado_mat
+    second: {fileID: 2100000, guid: 75d2d4efe1a429440b08622d81162b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_pneumatic_kicker_mat
+    second: {fileID: 2100000, guid: ec81461f8607970489c3299bc2910dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_pneumatic_main_fx
+    second: {fileID: 2100000, guid: ddd2d03c3c5b67a40b790fdbe7883948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_pneumatic_main_mat
+    second: {fileID: 2100000, guid: 78eca8aacda3ced48bec62880cdf713d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_pneumatic_plates_mat
+    second: {fileID: 2100000, guid: 41ed52870b4ebbf4897bb220f61ea1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_airConditioner_mat
+    second: {fileID: 2100000, guid: 26f95a39eeee1f14cb8c9fbb24cc1a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_ceilingJoint_mat
+    second: {fileID: 2100000, guid: 3322737b53c74f6429946436c78b9fc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_ceilingSupport_base_mat
+    second: {fileID: 2100000, guid: 7b6d812574d5ab646a79050753a58596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_A_fx
+    second: {fileID: 2100000, guid: 6886c814f67282641951704fca58a055, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_A_mat
+    second: {fileID: 2100000, guid: bdf27e152bff2754687fc2e8d7fbd515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_B_fx
+    second: {fileID: 2100000, guid: 200e5f8747bc32048806863a681ecbeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_B_mat
+    second: {fileID: 2100000, guid: e96f9c3e9c090ff47851f631d492cad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_C_fx
+    second: {fileID: 2100000, guid: 49f38bc6ebb46c8478fc3f28ec0edf84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_computerStation_C_mat
+    second: {fileID: 2100000, guid: 19310de5259a18c47bb64b1b45d3cb89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_fan_large_aperture_mat
+    second: {fileID: 2100000, guid: 67870cc12f53e1849af74de10902ed1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_powerCube_fx
+    second: {fileID: 2100000, guid: 62731ab35455a5042b492e2a0f3ce0d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_powerCube_mat
+    second: {fileID: 2100000, guid: 5bbf6d6b22249714db6a0483ae425df3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_support_foot_mat
+    second: {fileID: 2100000, guid: 849bccb971aeda048b32d7496eb289cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_turbine_fx
+    second: {fileID: 2100000, guid: bee9fd5dab7c0f14dac667013b2849d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_turbine_mat
+    second: {fileID: 2100000, guid: 33cd51fb3ce55e74f824c4a2c1098f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_vent_mat
+    second: {fileID: 2100000, guid: 06e0f6fd48829cd418fdd2be3581f8b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_wallLight_fx
+    second: {fileID: 2100000, guid: a30208591c93dd949aef9746d96e77c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_wallLight_mat
+    second: {fileID: 2100000, guid: 9b7fab34a3f41da469c0f3228ed23b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_ceilingPanel_fx
+    second: {fileID: 2100000, guid: 4022d5dbcbbd41643a56047e7e6e2b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_chevron_yellow_mat
+    second: {fileID: 2100000, guid: d9ebd7148ad8de24c97722f102d66909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_floor_concreteSlabs_mat
+    second: {fileID: 2100000, guid: 06f837710181db347aeb6c949e0af6e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_floor_concreteSlabs_yellowPaint_mat
+    second: {fileID: 2100000, guid: 40862847bca16ef448fa8c922acbf3c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_floor_concreteSmooth_mat
+    second: {fileID: 2100000, guid: 7cef7ce08a130324faaae66ce574063f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_floor_rubber_mat
+    second: {fileID: 2100000, guid: 76d20bcbcb197d2409b1d4710ed3cd26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_glass_transparent_mat
+    second: {fileID: 2100000, guid: 50a3faaf9c862fc49832396f69a7c02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_grate_tech_mat
+    second: {fileID: 2100000, guid: faf615636ef882547ba1459e5eddb3ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_gutter_mat
+    second: {fileID: 2100000, guid: ca0201651b082f34f9732197ecc6b480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_handrail_yellow_mat
+    second: {fileID: 2100000, guid: 764bddd3049ca6443852ea446b3e015b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_metal_greyDark02_mat
+    second: {fileID: 2100000, guid: 459d3d86a4fe8344eaf13fa8a85eb2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_metal_lightDirty_mat
+    second: {fileID: 2100000, guid: 2dc4286e6054b844c85a28527552a6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_paint_orange_mat
+    second: {fileID: 2100000, guid: 3a076212e33671e45b37cb8acb0cf967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_pipe_pink_mat
+    second: {fileID: 2100000, guid: 16e2f7a1edb55664ea512199af3e0ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_rubber_black_mat
+    second: {fileID: 2100000, guid: 4577929779298134d976464d5043cec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_strip_metal_dark_mat
+    second: {fileID: 2100000, guid: 72b117ef5da9f264590bcad516c8f21a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_supportUpright_mat
+    second: {fileID: 2100000, guid: f76041cb4d53123489b4a8cde393fbe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_wallPanel01_mat
+    second: {fileID: 2100000, guid: f7d30ded716750e47a2d052f1bb2fde8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_wallPanel02_mat
+    second: {fileID: 2100000, guid: cae61fa08a7f0e14cb73cdc079256a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_wallPanel03_mat
+    second: {fileID: 2100000, guid: 85430936d4e8fa340817041ae6452925, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton:
     - name: env_physicsLab
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      rotation: {x: 0, y: 0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: camera1
-      position: {x: 5.24911261, y: 3.55603623, z: 10.722683}
-      rotation: {x: -.00343488529, y: -.615651846, z: .00439645257, w: .787998438}
-      scale: {x: 160.165161, y: 160.165176, z: 160.165161}
-      transformModified: 1
+      parentName: 
+      position: {x: 5.2491126, y: 3.5560362, z: 10.722683}
+      rotation: {x: -0.0034348853, y: -0.61565185, z: 0.0043964526, w: 0.78799844}
+      scale: {x: 160.16516, y: 160.16518, z: 160.16516}
     - name: pCube6
-      position: {x: .30491966, y: 1.19339919, z: -15.5959711}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      parentName: 
+      position: {x: 0.30491966, y: 1.1933992, z: -15.595971}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: pCube16
-      position: {x: -1.66149306, y: -2.11707631e-11, z: 1.26940274}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      parentName: 
+      position: {x: -1.6614931, y: -2.1170763e-11, z: 1.2694027}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface2
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface3
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface4
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface5
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface6
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface7
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface8
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface9
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface10
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface11
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface12
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface13
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface14
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface15
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface16
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface17
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface18
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface19
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface20
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface21
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface22
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface23
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface24
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface25
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface26
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface27
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface28
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface29
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: 0, w: .99999994}
+      rotation: {x: 0, y: -0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_001
-      position: {x: 5.69114685, y: -.00153014995, z: -.0707175434}
-      rotation: {x: -0, y: -.707106709, z: 0, w: .707106709}
+      parentName: 
+      position: {x: 5.691147, y: -0.00153015, z: -0.07071754}
+      rotation: {x: -0, y: -0.7071067, z: 0, w: 0.7071067}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_plinth
-      position: {x: .0707175434, y: .00153014995, z: 5.69114685}
-      rotation: {x: 0, y: .559478581, z: -0, w: .828844726}
+      parentName: 
+      position: {x: 0.07071754, y: 0.00153015, z: 5.691147}
+      rotation: {x: 0, y: 0.5594786, z: -0, w: 0.8288447}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_base
-      position: {x: -0, y: .400310665, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: -0, y: 0.40031067, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_antennae
-      position: {x: -.00358642568, y: 2.68908501, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: -0.0035864257, y: 2.689085, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_arm
-      position: {x: .000777587877, y: 2.69161105, z: 0}
-      rotation: {x: 0, y: -0, z: -.252865195, w: .967501462}
+      parentName: 
+      position: {x: 0.0007775879, y: 2.691611, z: 0}
+      rotation: {x: 0, y: -0, z: -0.2528652, w: 0.96750146}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_hand
-      position: {x: 1.44726539, y: 1.90382445, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 1.4472654, y: 1.9038244, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawLow_base
-      position: {x: 1.52319944, y: -.603779435, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 1.5231994, y: -0.60377944, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawLow_mid
-      position: {x: .43150723, y: -.63950181, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 0.43150723, y: -0.6395018, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawLow_tip
-      position: {x: .433664322, y: .315884858, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 0.43366432, y: 0.31588486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawTop_base
-      position: {x: 1.61735678, y: .194579557, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 1.6173568, y: 0.19457956, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawTop_mid
-      position: {x: .669330418, y: .305577189, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 0.6693304, y: 0.3055772, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: prop_robotArm_clawTop_tip
-      position: {x: .20885542, y: -.485561043, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      parentName: 
+      position: {x: 0.20885542, y: -0.48556104, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+  humanoidOversampling: 1
   additionalBone: 1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
