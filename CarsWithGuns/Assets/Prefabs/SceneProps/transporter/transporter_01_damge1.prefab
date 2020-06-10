@@ -122,11 +122,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canDie: 1
-  startingHealth: 100
-  maxHealth: 100
+  startingHealth: 1000
+  maxHealth: 1000
   replaceWhenDead: 1
   deadReplacement: {fileID: 100000, guid: 8bec04fdef209a843b317d4c5d2e4fe5, type: 3}
   makeExplosion: 1
-  explosion: {fileID: 100004, guid: 169b10ce10f4327cb9f40f6b117ed8d7, type: 3}
+  explosion: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664, type: 3}
   isPlayer: 0
   deathCam: {fileID: 0}

@@ -127,6 +127,6 @@ MonoBehaviour:
   replaceWhenDead: 1
   deadReplacement: {fileID: 100000, guid: c1be6d3485061a14899eb6b649ac7e35, type: 3}
   makeExplosion: 1
-  explosion: {fileID: 100004, guid: 169b10ce10f4327cb9f40f6b117ed8d7, type: 3}
+  explosion: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
   isPlayer: 0
   deathCam: {fileID: 0}
