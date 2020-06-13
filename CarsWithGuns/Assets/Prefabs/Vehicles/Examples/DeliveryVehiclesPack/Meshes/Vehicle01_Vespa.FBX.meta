@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 434536a17f4ec8241aec5bbe0613aed8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Helper_BackWheelPosition
+    100002: Helper_FrontWheelPosition
+    100004: Helper_Jack
+    100006: Helper_MainBody
+    100008: Helper_PizzaBox
+    100010: Helper_Steering
+    100012: Vehicle01_BodyMesh
+    100014: Vehicle01_FrontWheelCoverMesh
+    100016: Vehicle01_HandleBarMesh
+    100018: Vehicle01_JackMesh
+    100020: Vehicle01_PizzaBoxMesh
+    100022: Vehicle01_Vespa
+    100024: //RootNode
+    100026: Vehicle01_WheelMesh
+    100028: Vehicle01_PizzaBoxMeshA
+    400000: Helper_BackWheelPosition
+    400002: Helper_FrontWheelPosition
+    400004: Helper_Jack
+    400006: Helper_MainBody
+    400008: Helper_PizzaBox
+    400010: Helper_Steering
+    400012: Vehicle01_BodyMesh
+    400014: Vehicle01_FrontWheelCoverMesh
+    400016: Vehicle01_HandleBarMesh
+    400018: Vehicle01_JackMesh
+    400020: Vehicle01_PizzaBoxMesh
+    400022: Vehicle01_Vespa
+    400024: //RootNode
+    400026: Vehicle01_WheelMesh
+    400028: Vehicle01_PizzaBoxMeshA
+    2300000: Vehicle01_BodyMesh
+    2300002: Vehicle01_FrontWheelCoverMesh
+    2300004: Vehicle01_HandleBarMesh
+    2300006: Vehicle01_JackMesh
+    2300008: Vehicle01_PizzaBoxMesh
+    2300010: Vehicle01_WheelMesh
+    2300012: Vehicle01_PizzaBoxMeshA
+    3300000: Vehicle01_BodyMesh
+    3300002: Vehicle01_FrontWheelCoverMesh
+    3300004: Vehicle01_HandleBarMesh
+    3300006: Vehicle01_JackMesh
+    3300008: Vehicle01_PizzaBoxMesh
+    3300010: Vehicle01_WheelMesh
+    3300012: Vehicle01_PizzaBoxMeshA
+    4300000: Vehicle01_BodyMesh
+    4300002: Vehicle01_JackMesh
+    4300004: Vehicle01_PizzaBoxMesh
+    4300006: Vehicle01_HandleBarMesh
+    4300008: Vehicle01_FrontWheelCoverMesh
+    4300010: Vehicle01_WheelMesh
+    4300012: Vehicle01_PizzaBoxMeshA
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle01_Vespa
+    second: {fileID: 2100000, guid: 7790242c4b69966448d6306c4caa0026, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
