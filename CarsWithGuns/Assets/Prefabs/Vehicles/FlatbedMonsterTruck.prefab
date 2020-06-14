@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 4367176698297999127}
   m_LocalRotation: {x: -0, y: -0.7553217, z: 0, w: -0.6553543}
   m_LocalPosition: {x: -121.8918, y: 9.452595, z: -77.20512}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_Children:
   - {fileID: 7928054753715780089}
   - {fileID: 8614484626979809872}
@@ -1233,6 +1233,11 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.45
       objectReference: {fileID: 0}
+    - target: {fileID: 4108681742553425151, guid: 9d28f7f4ee2bac64da7da762d122653f,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4221148876842554743, guid: 9d28f7f4ee2bac64da7da762d122653f,
         type: 3}
       propertyPath: wheelModel
@@ -1242,6 +1247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110161548239758391, guid: 9d28f7f4ee2bac64da7da762d122653f,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4221453349714769887, guid: 9d28f7f4ee2bac64da7da762d122653f,
         type: 3}
@@ -1253,6 +1263,11 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.45
       objectReference: {fileID: 0}
+    - target: {fileID: 4110593540284486997, guid: 9d28f7f4ee2bac64da7da762d122653f,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4221137704927047683, guid: 9d28f7f4ee2bac64da7da762d122653f,
         type: 3}
       propertyPath: wheelModel
@@ -1262,6 +1277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110604434447718855, guid: 9d28f7f4ee2bac64da7da762d122653f,
+        type: 3}
+      propertyPath: m_SuspensionDistance
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4221181995502242671, guid: 9d28f7f4ee2bac64da7da762d122653f,
         type: 3}
