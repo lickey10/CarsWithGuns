@@ -4729,7 +4729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100403008}
   m_LocalRotation: {x: -0.16445093, y: -0.78756994, z: -0.238047, w: 0.5440801}
-  m_LocalPosition: {x: -0.923, y: -0.056, z: 0.249}
+  m_LocalPosition: {x: -1.09, y: 0.01, z: 0.007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2111577720796783031}
@@ -14135,7 +14135,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272231754}
   m_LocalRotation: {x: -0.16445093, y: -0.78756994, z: -0.238047, w: 0.5440801}
-  m_LocalPosition: {x: -0.927, y: 0.006, z: 0.129}
+  m_LocalPosition: {x: -1.034, y: 0.014, z: -0.115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2111577720796783031}
@@ -28244,7 +28244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613991077}
   m_LocalRotation: {x: -0.16445093, y: -0.78756994, z: -0.238047, w: 0.5440801}
-  m_LocalPosition: {x: -0.909, y: 0.001, z: 0.072}
+  m_LocalPosition: {x: -1.016, y: 0.009, z: -0.172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2111577720796783031}
@@ -32947,7 +32947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764324452}
   m_LocalRotation: {x: -0.16445093, y: -0.78756994, z: -0.238047, w: 0.5440801}
-  m_LocalPosition: {x: -0.941, y: -0.051, z: 0.306}
+  m_LocalPosition: {x: -1.108, y: 0.015, z: 0.064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2111577720796783031}
@@ -49024,6 +49024,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.716
       objectReference: {fileID: 0}
+    - target: {fileID: 6004790243379096631, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.785
+      objectReference: {fileID: 0}
     - target: {fileID: 6004790243390099613, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
         type: 3}
       propertyPath: weapons.Array.data[0]
@@ -49064,161 +49069,6 @@ PrefabInstance:
       propertyPath: weapons.Array.data[7]
       value: 
       objectReference: {fileID: 5622796153479136140}
-    - target: {fileID: 6004790243379096631, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.785
-      objectReference: {fileID: 0}
-    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479125898}
-    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478854288}
-    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478854318}
-    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478854290}
-    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478854318}
-    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479125892}
-    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478854310}
-    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478854310}
-    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478854308}
-    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478854310}
-    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479070254}
-    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478854302}
-    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478854298}
-    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478854296}
-    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478854298}
-    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479149812}
-    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478958282}
-    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478958138}
-    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478958132}
-    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478958138}
-    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479149794}
-    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478958130}
-    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478958278}
-    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478958300}
-    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478958278}
-    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: weaponModel
-      value: 
-      objectReference: {fileID: 5622796153479149776}
-    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: raycastStartSpot
-      value: 
-      objectReference: {fileID: 5622796153478958136}
-    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: projectileSpawnSpot
-      value: 
-      objectReference: {fileID: 5622796153478958120}
-    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: shellSpitPosition
-      value: 
-      objectReference: {fileID: 5622796153478958286}
-    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
-        type: 3}
-      propertyPath: muzzleEffectsPosition
-      value: 
-      objectReference: {fileID: 5622796153478958120}
     - target: {fileID: 6004790243390099615, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
         type: 3}
       propertyPath: weaponModel
@@ -49244,6 +49094,81 @@ PrefabInstance:
       propertyPath: muzzleEffectsPosition
       value: 
       objectReference: {fileID: 5622796153478958284}
+    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479149776}
+    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478958136}
+    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478958120}
+    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478958286}
+    - target: {fileID: 6004790243390099595, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478958120}
+    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479149794}
+    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478958130}
+    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478958278}
+    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478958300}
+    - target: {fileID: 6004790243390099591, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478958278}
+    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479149812}
+    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478958282}
+    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478958138}
+    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478958132}
+    - target: {fileID: 6004790243390099589, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478958138}
     - target: {fileID: 6004790243390117325, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
         type: 3}
       propertyPath: weaponModel
@@ -49269,6 +49194,81 @@ PrefabInstance:
       propertyPath: muzzleEffectsPosition
       value: 
       objectReference: {fileID: 5622796153478911956}
+    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479070254}
+    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478854302}
+    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478854298}
+    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478854296}
+    - target: {fileID: 6004790243390043711, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478854298}
+    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479125892}
+    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478854310}
+    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478854310}
+    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478854308}
+    - target: {fileID: 6004790243390043707, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478854310}
+    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: weaponModel
+      value: 
+      objectReference: {fileID: 5622796153479125898}
+    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: raycastStartSpot
+      value: 
+      objectReference: {fileID: 5622796153478854288}
+    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: projectileSpawnSpot
+      value: 
+      objectReference: {fileID: 5622796153478854318}
+    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: shellSpitPosition
+      value: 
+      objectReference: {fileID: 5622796153478854290}
+    - target: {fileID: 6004790243390043705, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f,
+        type: 3}
+      propertyPath: muzzleEffectsPosition
+      value: 
+      objectReference: {fileID: 5622796153478854318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bbc3b68bfd7b7d43b5df9c7e8c89c9f, type: 3}
 --- !u!4 &5622796153478958286 stripped
@@ -49526,17 +49526,17 @@ PrefabInstance:
     - target: {fileID: 3929744075479330048, guid: b320ec897e68a8942a962d8ae71ecdbb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7973938
+      value: -0.946
       objectReference: {fileID: 0}
     - target: {fileID: 3929744075479330048, guid: b320ec897e68a8942a962d8ae71ecdbb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09035587
+      value: -0.015
       objectReference: {fileID: 0}
     - target: {fileID: 3929744075479330048, guid: b320ec897e68a8942a962d8ae71ecdbb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.1653595
+      value: -0.339
       objectReference: {fileID: 0}
     - target: {fileID: 3929744075479330048, guid: b320ec897e68a8942a962d8ae71ecdbb,
         type: 3}
@@ -49607,17 +49607,17 @@ PrefabInstance:
     - target: {fileID: 3167071346056053611, guid: a0472883cb033c24fb8b19764d0273ab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.8154602
+      value: -0.964
       objectReference: {fileID: 0}
     - target: {fileID: 3167071346056053611, guid: a0472883cb033c24fb8b19764d0273ab,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.085289955
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3167071346056053611, guid: a0472883cb033c24fb8b19764d0273ab,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.10873413
+      value: -0.282
       objectReference: {fileID: 0}
     - target: {fileID: 3167071346056053611, guid: a0472883cb033c24fb8b19764d0273ab,
         type: 3}
