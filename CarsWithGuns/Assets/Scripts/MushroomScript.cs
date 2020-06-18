@@ -16,7 +16,8 @@ public class MushroomScript : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Collider>() != null)
-           SendMessageUpwards("ApplyDamage", 50, SendMessageOptions.DontRequireReceiver);
+		if (other.gameObject.GetComponent<Collider>() != null)
+			GetComponent<Health>().ApplyDamage(100);
+           //SendMessageUpwards("ApplyDamage", 50, SendMessageOptions.DontRequireReceiver);
     }
 }

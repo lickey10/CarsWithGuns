@@ -244,7 +244,7 @@ public partial class DepthOfFieldScatter : PostEffectsBase
                     this.dx11bokehMaterial.SetTexture("_MainTex", this.dx11BokehTexture);
                     this.dx11bokehMaterial.SetVector("_Screen", new Vector3(1f / (1f * source.width), 1f / (1f * source.height), this.internalBlurWidth));
                     this.dx11bokehMaterial.SetPass(2);
-                    Graphics.DrawProceduralIndirect(MeshTopology.Points, this.cbDrawArgs, 0);
+                    Graphics.DrawProceduralIndirectNow(MeshTopology.Points, this.cbDrawArgs, 0);
                     Graphics.Blit(dest2, destination); // hackaround for DX11 high resolution flipfun (OPTIMIZEME)
                     RenderTexture.ReleaseTemporary(dest2);
                     RenderTexture.ReleaseTemporary(rtSuperLow1);
@@ -306,7 +306,7 @@ public partial class DepthOfFieldScatter : PostEffectsBase
                     this.dx11bokehMaterial.SetTexture("_MainTex", this.dx11BokehTexture);
                     this.dx11bokehMaterial.SetVector("_Screen", new Vector3(1f / (1f * rtLow2.width), 1f / (1f * rtLow2.height), this.internalBlurWidth));
                     this.dx11bokehMaterial.SetPass(1);
-                    Graphics.DrawProceduralIndirect(MeshTopology.Points, this.cbDrawArgs, 0);
+                    Graphics.DrawProceduralIndirectNow(MeshTopology.Points, this.cbDrawArgs, 0);
                     // upsample & combine
                     this.dofHdrMaterial.SetTexture("_LowRez", rtLow2);
                     this.dofHdrMaterial.SetTexture("_FgOverlap", rtLow3);

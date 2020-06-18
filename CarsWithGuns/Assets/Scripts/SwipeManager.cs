@@ -4,7 +4,7 @@ public class SwipeManager : MonoBehaviour
 {
 	public enum Swipe { Up, Down, Left, Right, None, UpLeft, UpRight, DownLeft, DownRight, SwipingDown, SwipingUp };
 	public float minSwipeLength = 200f;
-	public GUIText debugInfo;
+	public UnityEngine.UI.Text debugInfo;
 	
 	Vector2 firstPressPos;
 	Vector2 secondPressPos;

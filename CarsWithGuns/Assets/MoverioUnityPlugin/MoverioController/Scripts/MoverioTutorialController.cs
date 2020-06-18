@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MoverioTutorialController : MonoBehaviour {
 
-	public GUIText TextView;
+	public UnityEngine.UI.Text TextView;
 
 	void Start () 
 	{
